@@ -1,5 +1,4 @@
-export function location() {
- /* CONSTANTS AND GLOBALS*/
+/* CONSTANTS AND GLOBALS*/
   const width = window.innerWidth*.9,
         height = window.innerHeight*.8,
         margin = {top: 10, bottom: 30, left:40, right:10};
@@ -30,7 +29,7 @@ export function location() {
   * */
   function init() {
     
-    const container = d3.select("#container_location")
+    const container = d3.select("#container")
                     .style("position","relative");
 
     svg = container.append("svg")
@@ -124,4 +123,3 @@ export function location() {
       .style("background","yellow")
     }
   };
-}

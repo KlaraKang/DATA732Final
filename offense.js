@@ -1,6 +1,4 @@
-export function offense() {  
-  
-  /* CONSTANTS AND GLOBALS */
+/* CONSTANTS AND GLOBALS */
   const width = window.innerWidth*.9,
         height = window.innerHeight*.8,
         margin = {top: 10, bottom: 30, left:40, right:10},
@@ -74,7 +72,7 @@ export function offense() {
 
     // + UI ELEMENT SETUP
     /*manual drop-down menu */
-    const selectElement = d3.select("#dropdown4")
+    const selectElement = d3.select("#dropdown")
   
     selectElement.selectAll("option") // "option" is a HTML element
                 .data(["All",
@@ -90,7 +88,7 @@ export function offense() {
     });
 
     // + CREATE SVG ELEMENT
-    const container = d3.select("#container_offense")
+    const container = d3.select("#container")
                           .style("position","relative");
 
     svg = container.append("svg")
@@ -184,4 +182,3 @@ export function offense() {
           .remove("dot")
         )      
   };
-}

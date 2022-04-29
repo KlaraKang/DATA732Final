@@ -1,4 +1,3 @@
-export function states() {
   /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth * .9,
     height = window.innerHeight * .8,
@@ -55,7 +54,7 @@ export function states() {
     yAxis = d3.axisLeft(yScale)
 
     // + UI ELEMENT SETUP
-    const selectElement = d3.select("#dropdown2")
+    const selectElement = d3.select("#dropdown")
 
     selectElement.selectAll("options")
           .data([...new Set(state.data.map(d => d.STATE_NAME))])
@@ -70,7 +69,7 @@ export function states() {
     })
 
     // + CREATE SVG ELEMENT
-    const container = d3.select("#container_states")
+    const container = d3.select("#container")
                     .style("position","relative");
 
     svg = container.append("svg")
@@ -159,6 +158,4 @@ export function states() {
         .attr("fill","#D93942")
         .style("opacity",0.5) 
         .attr("d", d=>areaGen(d))
-      
   };
-}

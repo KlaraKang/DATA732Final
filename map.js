@@ -1,6 +1,4 @@
-export function map(){
-
-    /* CONSTANTS AND GLOBALS*/
+ /* CONSTANTS AND GLOBALS*/
     const width = window.innerWidth * 0.9,
     height = window.innerHeight * 0.8,
     margin = { top: 20, bottom: 20, left: 20, right: 20 },
@@ -53,7 +51,7 @@ export function map(){
                             .interpolator(d3.interpolateOrRd)                     
         
         // CREATE SVG ELEMENT
-        const container = d3.select("#container_map")
+        const container = d3.select("#container")
                             .style("position", "relative");
 
         svg = container.append("svg")
@@ -90,7 +88,7 @@ export function map(){
         
         // + UI ELEMENT SETUP
         /*manual drop-down menu */
-        const selectElement = d3.select("#dropdown1")
+        const selectElement = d3.select("#dropdown")
 
         selectElement.selectAll("options") // "option" is a HTML element
                     .data(year_menu) 
@@ -177,4 +175,3 @@ export function map(){
             )   
 
     }; 
-}

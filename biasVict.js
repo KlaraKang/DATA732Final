@@ -1,4 +1,3 @@
-export function biasVict(){
   /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth*.9,
   height = window.innerHeight*.8,
@@ -86,7 +85,7 @@ export function biasVict(){
     const yAxis2 = d3.axisLeft(yScale2)
 
     // + CREATE SVG ELEMENT
-    const container = d3.select("#container_bias")
+    const container = d3.select("#container")
                       .style("position", "relative");
 
     svg1 = container
@@ -139,7 +138,7 @@ export function biasVict(){
 
     // + UI ELEMENT SETUP
     /*manual drop-down menu */
-    const selectElement = d3.select("#dropdown3")
+    const selectElement = d3.select("#dropdown")
 
     selectElement.selectAll("option") // "option" is a HTML element
                   .data(["Select Year",
@@ -309,5 +308,4 @@ export function biasVict(){
         .attr("x", 0)
         .remove("data-labels2")   
         )
-  }
-}  
+  }; 
