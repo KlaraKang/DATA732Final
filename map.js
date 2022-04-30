@@ -84,14 +84,15 @@ Promise.all([
     tooltip = d3.select("body")
                 .append("div")
                 .attr("class", "tooltip")
-                    .style("z-index", "10")
-                    .style("position", "absolute")
-                    .style("visibility", "hidden")
-                    .style("opacity", 0.8)
-                    .style("padding", "8px")
-                    .attr("font-size", "10px")
-                    .attr("font-color", "red")
-                    .text("tooltip");
+                .style("z-index", "10")
+                .style("position", "absolute")
+                .style("visibility", "hidden")
+                .style("opacity", 0.8)
+                .style("padding", "8px")
+                .attr("font-size", "10px")
+                .attr("font-color", "red")
+                .text("tooltip");
+
     // VERTICAL LEGEND
     g = svg.append("g"); 
     g.selectAll("rect")
@@ -111,14 +112,14 @@ Promise.all([
 
     // legend title
     g.append("text")
-        .attr("font-family", "sans-serif")
-        .attr("x", -42)
-        .attr("y", 58)
-        .attr("fill", "#DEF5FE")
-        .attr("text-anchor", "start")
-        .attr("font-size", "10px")
-        .attr("font-weight", "bold")
-        .text("Incident Volume");
+     .attr("font-family", "sans-serif")
+     .attr("x", -42)
+     .attr("y", 58)
+     .attr("fill", "#DEF5FE")
+     .attr("text-anchor", "start")
+     .attr("font-size", "10px")
+     .attr("font-weight", "bold")
+     .text("Incident Volume");
 
     // Place the legend axis with the values in it
     g.attr("transform", `translate(${width-margin.right-margin.left}, ${0})`)
@@ -133,86 +134,86 @@ Promise.all([
      .select(".domain")
      .remove()
     
-        // + UI ELEMENT SETUP
-        /*manual drop-down menu */
-        const selectElement = d3.select("#dropdown")
+    // + UI ELEMENT SETUP
+    /*manual drop-down menu */
+    const selectElement = d3.select("#dropdown")
 
-        selectElement.selectAll("options") // "option" is a HTML element
-                    .data(year_menu) 
-                    .join("option")
-                    .attr("value", d => d) // what's on the data
-                    .text(d=> d) // what users can see
+    selectElement.selectAll("options") // "option" is a HTML element
+                 .data(year_menu) 
+                 .join("option")
+                 .attr("value", d => d) // what's on the data
+                 .text(d=> d) // what users can see
     
-        /* set up event listener to filter data based on dropdown menu selection*/
-        selectElement.on("change", event => {
-            console.log(event.target.value) // to check if filtered 
+    /* set up event listener to filter data based on dropdown menu selection*/
+    selectElement.on("change", event => {
+        console.log(event.target.value) // to check if filtered 
 
-            state.selectYear = +event.target.value
+        state.selectYear = +event.target.value
 
-            console.log("new state", state) // to check changes after selection
-            draw(); 
-        });
+        console.log("new state", state) // to check changes after selection
+        draw(); 
+    });
                     
     draw(); // calls the draw function
-    });
+});
 
-    /**
-    * DRAW FUNCTION
-    * call this every time there is an update to the data/state
-    * */
-    function draw() {
+/**
+* DRAW FUNCTION
+* call this every time there is an update to the data/state
+* */
+function draw() {
 
-        // + FILTER DATA BASED ON STATE
-        const filteredData = state.data
+    // + FILTER DATA BASED ON STATE
+    const filteredData = state.data
             .filter(d => state.selectYear === d.DATA_YEAR) 
             console.log(filteredData)
 
-        svg.selectAll("circle")
+    svg.selectAll("circle")
         .data(filteredData, d => d.ID)
         .join(
-                enter => enter
-                .append("circle")
-                .attr("r", 2)
-                .attr("transform", d => {
-                    const [x, y] = projection([d.longitude, d.latitude])
+            enter => enter
+            .append("circle")
+            .attr("r", 2)
+            .attr("transform", d => {
+                  const [x, y] = projection([d.longitude, d.latitude])
                     return `translate(${x}, ${y})`
                 })
-                .attr("fill","white")
-                    .on("mouseover", function(event, d, i){
-                        tooltip
-                        .html(`<div>${d.STATE_NAME}:</div>
-                                <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
-                        .style("visibility", "visible")
-                        .style("background","lightblue")
-                    })
-                    .on("mousemove", function(event){
-                        tooltip
-                        .style("top", event.pageY - 10 + "px")
-                        .style("left", event.pageX +10 +"px")
-                    })
-                    .on("mouseout", function(event, d) {
-                        tooltip
-                        .html(``)
-                        .style("visibility", "hidden");
-                    })
-                .call(enter => enter.transition()
-                    .delay(500)
-                    .attr("r", d=>d.SUM_VICTIM_COUNT*0.025)                    
-                    .attr("fill", d=> colorScale(d.SUM_VICTIM_COUNT))
-                )
-                ,
-                // + HANDLE UPDATE SELECTION
-                update => update
-                ,
-                // + HANDLE EXIT SELECTION
-                exit => exit
-                .transition()
-                .duration(500)
-                .attr("fill","gray")
-                .attr("r", (radius*.25))
-                .delay(250)
-                .attr("cx", 0)
-                .remove() 
-            )   
+            .attr("fill","white")
+                .on("mouseover", function(event, d, i){
+                    tooltip
+                    .html(`<div>${d.STATE_NAME}:</div>
+                            <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
+                    .style("visibility", "visible")
+                    .style("background","lightblue")
+                })
+                .on("mousemove", function(event){
+                    tooltip
+                    .style("top", event.pageY - 10 + "px")
+                    .style("left", event.pageX +10 +"px")
+                })
+                .on("mouseout", function(event, d) {
+                    tooltip
+                    .html(``)
+                    .style("visibility", "hidden");
+                })
+            .call(enter => enter.transition()
+                .delay(500)
+                .attr("r", d=>d.SUM_VICTIM_COUNT*0.025)                    
+                .attr("fill", d=> colorScale(d.SUM_VICTIM_COUNT))
+            )
+            ,
+            // + HANDLE UPDATE SELECTION
+            update => update
+            ,
+            // + HANDLE EXIT SELECTION
+            exit => exit
+            .transition()
+            .duration(500)
+            .attr("fill","gray")
+            .attr("r", (radius*.25))
+            .delay(250)
+            .attr("cx", 0)
+            .remove() 
+        )   
 
-    }; 
+}; 
