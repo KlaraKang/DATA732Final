@@ -119,10 +119,10 @@ Promise.all([
      .attr("text-anchor", "start")
      .attr("font-size", "10px")
      .attr("font-weight", "bold")
-     .text("Incident Volume");
+     .text("Indicents");
 
     // Place the legend axis with the values in it
-    g.attr("transform", `translate(${width-margin.right-margin.left}, ${0})`)
+    g.attr("transform", `translate(${width-margin.right}, ${0})`)
      .call(d3.axisRight(yLegend)
      .tickSize(0)
      .tickFormat(function(y, i) { 
@@ -167,9 +167,9 @@ function draw() {
     const filteredData = state.data
             .filter(d => state.selectYear === d.DATA_YEAR) 
             console.log(filteredData)
-
+    
     svg.selectAll("circle")
-        .data(filteredData, d => d.ID)
+        .data(filteredData, d => d.INCIDENT_ID/5)
         .join(
             enter => enter
             .append("circle")
