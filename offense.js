@@ -44,8 +44,10 @@
   
     // save the summed data to application state
     state.data = sums;
-    console.log(sums) // Year as number
+   // console.log(sums) // Year as number
 
+    state.data.forEach((d,i) => {d.id = i+1;});
+    console.log("state", state.data)
     init();
   });
 
@@ -98,7 +100,7 @@
     tooltip = container
           .append("div")
           .attr("class", "tooltip")
-          .style("z-index", "9")
+          .style("z-index", "5")
           .style("position", "absolute")
           .style("visibility", "hidden")
           .style("opacity", 0.8)
@@ -132,9 +134,9 @@
                       state.selection === d.OFFENSE_TYPES)
     console.log(filteredData)
 
-    const dot = svg
-      .selectAll("circle.dot")
-      .data(filteredData, d=> d.INCIDENT_ID) // to match data to unique id
+    svg.selectAll("circle.dot")
+      .data(filteredData, d=>d.id) // to match data to unique id
+      .attr("id", (d,i)=>i)
       .join(
         // + HANDLE ENTER SELECTION
         enter => enter
@@ -154,8 +156,8 @@
           })
           .on("mousemove", function(event){
             tooltip
-              .style("top", event.pageY - 9 + "px")
-              .style("left", event.pageX +9 +"px")
+              .style("top", event.pageY - 5 + "px")
+              .style("left", event.pageX + 5 + "px")
           })
           .on("mouseout", function(event, d) {
             tooltip
