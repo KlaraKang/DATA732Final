@@ -132,23 +132,32 @@
           .attr("stroke","#9A1904")
           .attr("fill","none")
           .attr("d", d=>lineGen(d))
-          .on("mouseover", function(event, d, i){
-            tooltip
-            .html(`<div>${d.DATA_YEAR}:</div>
-                    <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
-            .style("visibility", "visible")
-            .style("background","lightblue")
-          })
-          .on("mousemove", function(event){
-              tooltip
-              .style("top", event.pageY - 10 + "px")
-              .style("left", event.pageX +10 +"px")
-          })
-          .on("mouseout", function(event, d) {
-              tooltip
-              .html(``)
+
+    // NEW code block
+    /* this will add dots based on data */
+    svg.selectAll(".circle-point")
+    .data(filteredData)
+    .join("circle") // enter append
+      .attr("class", "circle-point")
+      .attr("r", "4") // radius
+      .attr("cx", d=> xScale(d.DATA_YEAR))   // center x on line
+      .attr("cy", d=> yScale(d.SUM_VICTIM_COUNT))   // center y on line
+      .attr("fill", "blue")
+      .attr("opacity", 0.4)
+        .on("mouseover", function(event,d,i){
+            return tooltip
+              .html(`<div>${d.SUM_VICTIM_COUNT} victims</div>`)
+              .style("visibility", "visible");
+            })
+        .on("mousemove", function(event){
+            return tooltip
+              .style("top", (event.pageY-5)+"px")
+              .style("left",(event.pageX+5)+"px");
+            })
+        .on("mouseout", function(){
+            return tooltip
               .style("visibility", "hidden");
-          })
+            });
 
     // FILL AREA WITH A COLOR WITH A TIME DELAY        
     svg.selectAll("Path.area")
