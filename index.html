@@ -28,17 +28,42 @@
         <b>Data Source: Federal Bureau of Investigation Crime Data Explorer </b><br>
         The Hate Crime Statistics dataset (Years: 1991-2020, File size: 4.57MB, Last modified: Oct.25, 2021) <br>
         URL: <a style="color:rgb(154, 199, 199)" href= "https://crime-data-explorer.app.cloud.gov/pages/downloads" target="_blank">
-        https://crime-data-explorer.app.cloud.gov/pages/downloads</a>
+        https://crime-data-explorer.app.cloud.gov/pages/downloads</a><br><br>
+
+	<b>About the dataset and data preparations:</b><br>
+	The dataset includes the number of incidents, offenses, victims, and location types in reported crimes between 1991 and 2020 
+	that are motivated in whole, or in part, by an offender’s bias against the victim’s perceived race, gender, gender identity, 
+	religion, disability, sexual orientation, or ethnicity. According to the data source website, this data are captured by 
+	indicating the element of bias present in offenses already being reported to the FBI's Uniform Crime Reporting (UCR) Program 
+	and contributed by all law enforcement agencies, whether they submit Summary Reporting System (SRS) or National Incident-Based
+	Reporting System (NIBRS) reports.<br><br>
+
+	For this data visualization project, I only included the records reported between 2001 and 2020, with a total of 145,847 hate 
+	crime incidents against 180,925 victims. <br>	
+	Each incident can be reported with up to five bias motivations, and 4.5% of all biase types are multi-biased (6,494/145,847), 
+  1.7% of all victim types consist of multiple victim types (2,478/145,847), 3.2% of all offense types consist of multiple offense types (4,684/145,847), 
+  and 4.7% of all location types include multiple location types (6,852/145,847).<br><br>
+
+	<b>The total victim counts</b> are visualized using the US map and line chart in Part I and II below. <br>
+	<b>The total incident counts</b> are visualized for different types of motivation, victim, offense, and location in Part III to VI.<br>
+	For Part III to VI, I have generated new datasetsethat split multiple biases into multiple rows to 
+	ensure every incident types are included in the visualization.<br><br>
+
+	  
+	<br><b>Definition</b><br>
+	The term <b>victim</b> may refer to an individual, business/financial institution, government entity, religious organization, or society/public as a whole.<br>
+	A <b>multiple-bias</b> incident is an incident in which one or more offense types are motivated by two or more biases.
+ 
       </p>
     </div>
   </section>  
   
   <section class="bg-dark">
     <div class="padded">
-      <h4><br>Part I. Hate crimes across the states.</h4>       
+      <h4><br>Part I. Volume of hate crime victims across the states.</h4>       
       <p class = "findings-d">
-        <b>California, New Jersey, and New York are responsible for over 31% of all hate crimes in the U.S.<br> 
-        Year 2020 has the highest number of hate crime incidents reported since 2001.</b>
+        <b>Year 2020 has the highest reported incidents and highest number of victims of hate crime since 2001.<br> 
+        Incidents reported in California, New Jersey, and New York are responsible for over 31% of the hate crime victims.</b>
       </p>
       <iframe src="./map.html" scrolling="no"></iframe>
     </div>
@@ -46,7 +71,7 @@
 
   <section>
     <div class="padded">
-    <h5>Part II. Hate crimes over the 20 years.</h5>     
+    <h5>Part II. Volume of hate crime victims over the last 20 years.</h5>     
       <table>
         <tr>
           <td width ="70%">
@@ -54,7 +79,7 @@
           </td>
           <td width ="30%">
             <p class = "findings-l"> 
-              <b>California has the highest hate crime volume each and every year since 2001.</b> <br>                 
+              <b>California has the highest number of reported hate crime victims each and every year since 2001.</b> <br>                 
             </p>
           </td>
         </tr>
@@ -64,10 +89,10 @@
 
   <section class="bg-dark">
     <div class="padded">
-      <h4><br>Part III-IV. Motivations of the crimes and types of the victims.</h4>
+      <h4><br>Part III-IV. Motivations of the crimes and victim types.</h4>
       <p class = "findings-d">
         <b>African Americans are the most targeted population for the bias-motivated crimes, each and every year.<br>
-        Anti-Asian crimes increased almost a double in year 2020 compared to year 2019.<br>
+        Anti-Asian incidents increased almost double in the year 2020 compared to the year 2019.<br>
         81.5% of the hate crime victims are individuals. </b>
       </p>
       <iframe src="./biasVict.html" scrolling="no"></iframe>
@@ -76,7 +101,7 @@
 
   <section>
     <div class="padded">
-      <h5>Part V. How the hate crimes were carried out.</h5>
+      <h5>Part V. How hate crimes were carried out.</h5>
       <table>
         <tr>
           <td width="80%">
@@ -84,7 +109,7 @@
           </td>
           <td width="20%">
             <p class="findings-l">
-            <b>Vandalism, Intimidatin, and Aggravated Assault are the top 3 acts of the hate crimes. </b>
+            <b>Vandalism, Intimidatin, and Aggravated Assault are the top 3 acts of hate crimes. </b>
             </p>
           </td>
         </tr>  
@@ -96,7 +121,7 @@
     <div class="padded">
       <h4><br>Part VI. Where these crimes took place.</h4>
       <p class = "findings-d"> 
-        <b>31.0% of the time the hate crimes were occured in residencial areas, 18.5% on highways, 
+        <b>31.0% of the time hate crimes were occured in residencial areas, 18.5% on highways, 
           and 9.5% in schools.</b>
       </p>
       <iframe src="./location.html" scrolling="no"></iframe>
@@ -108,10 +133,15 @@
       <p style="color:navy;">
         <b>References:</b><br>
         View the developments in the fight for passage of federal hate crimes legislation from 1989-2009 on 
-        <a href="https://www.hrc.org/resources/hate-crimes-timeline#2009" target="_blank">the Human Rights Campaign website.</a></li>
+        <a href="https://www.hrc.org/resources/hate-crimes-timeline#2009" target="_blank">
+          the Human Rights Campaign website.</a></li>
         <br>
         2020 Hate Crimes Statistics on 
-        <a href="https://www.justice.gov/crs/highlights/2020-hate-crimes-statistics" target="_blank">the FBI website.</a></li>
+        <a href="https://www.justice.gov/crs/highlights/2020-hate-crimes-statistics" target="_blank">
+          the FBI website.</a></li><br>
+        *Please note that the 2020 hate crime statistics displayed on the FBI website is based on the data 
+        as of Auguest 2021. However, the dataset used in my project is last updated October 2021 and has more 
+        number of incident records.
       </p>
     </div>
   </section>
