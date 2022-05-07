@@ -1,7 +1,7 @@
   /* CONSTANTS AND GLOBALS */
-  const width = window.innerWidth*.9,
-  height = window.innerHeight*.8,
-  margin = {top:20, bottom:20, left:200, right:70};
+  const width = window.innerWidth*.95,
+  height = window.innerHeight*.9,
+  margin = {top:20, bottom:50, left:200, right:70};
 
   // // since we use our scales in multiple functions, they need global scope
   // let xScale, yScale;
@@ -82,11 +82,11 @@ Promise.all([
                   "#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f","#124559","#598392","#a2b9bc","#b2ad7f","#bdcebe","#cfe0e8","#A5C4E7","#92a8d1","#034f84","#deeaee"])  
 
     // + AXES
-    const xAxis1 = d3.axisBottom(xScale1).ticks(20)
+   /*  const xAxis1 = d3.axisBottom(xScale1).ticks(20) */
     yAxis1 = d3.axisLeft(yScale1)
 
     // + AXES
-    const xAxis2 = d3.axisBottom(xScale2).ticks(20)
+   /*  const xAxis2 = d3.axisBottom(xScale2).ticks(20) */
     yAxis2 = d3.axisLeft(yScale2)
 
     // + CREATE SVG ELEMENT
@@ -118,24 +118,11 @@ Promise.all([
           .text("tooltip");
 
     // + CALL AXES to draw Axis lines
-    const xAxisGroup1 = svg1.append("g")
-      .attr("class","xAxis1")
-      .attr("transform", `translate(${0},${height-margin.bottom})`)
-      .attr("width",width/2)
-      .call(xAxis1)
-    
     yAxisGroup1 = svg1.append("g")
       .attr("class","yAxis1")
       .attr("transform", `translate(${margin.left},${0})`)
       .call(yAxis1)
 
-  // + CALL AXES to draw Axis lines
-    const xAxisGroup2 = svg2.append("g")
-      .attr("class","xAxis2")
-      .attr("transform", `translate(${50},${height-margin.bottom})`)
-      .attr("width",width/2+50)
-      .call(xAxis2)
-    
     yAxisGroup2 = svg2.append("g")
       .attr("class","yAxis2")
       .attr("transform", `translate(${margin.left+50},${0})`)
@@ -176,7 +163,7 @@ Promise.all([
         .filter(d => state.selectYear === d.DATA_YEAR)
         .sort((a,b)=>d3.descending(a.SUM_VICTIM_TYPE_RECORDS, b.SUM_VICTIM_TYPE_RECORDS)) 
     
-    // + UPDATE SCALE(S), if needed
+    // + UPDATE DOMAINS, if needed
     yScale1.domain(filteredData1.map(d=> d.BIAS_TYPES))
     yScale2.domain(filteredData2.map(d=> d.VICTIM_TYPES))
 
