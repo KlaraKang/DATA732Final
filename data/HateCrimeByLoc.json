@@ -1,138 +1,190 @@
 {
   "name": "location",
-  "children": 
-  [
-    {
-      "DESCRIPTION": "Residence",
-      "SUM_VICTIM_COUNT": 56011
-    },
-    {
-      "DESCRIPTION": "Highway",
-      "SUM_VICTIM_COUNT": 33438
-    },
-    {
-      "DESCRIPTION": "Other",
-      "SUM_VICTIM_COUNT": 19558
-    },
-    {
-      "DESCRIPTION": "School",
-      "SUM_VICTIM_COUNT": 17236
-    },
-    {
-      "DESCRIPTION": "Store",
-      "SUM_VICTIM_COUNT": 11076
-    },
-    {
-      "DESCRIPTION": "Garage",
-      "SUM_VICTIM_COUNT": 10703
-    },
-    {
-      "DESCRIPTION": "Religious Place",
-      "SUM_VICTIM_COUNT": 6835
-    },
-    {
-      "DESCRIPTION": "Restaurant",
-      "SUM_VICTIM_COUNT": 3929
-    },
-    {
-      "DESCRIPTION": "Commercial Building",
-      "SUM_VICTIM_COUNT": 3672
-    },
-    {
-      "DESCRIPTION": "Bar",
-      "SUM_VICTIM_COUNT": 3359
-    },
-    {
-      "DESCRIPTION": "Government Building",
-      "SUM_VICTIM_COUNT": 2822
-    },
-    {
-      "DESCRIPTION": "Public Transit",
-      "SUM_VICTIM_COUNT": 1921
-    },
-    {
-      "DESCRIPTION": "Gas Station",
-      "SUM_VICTIM_COUNT": 1769
-    },
-    {
-      "DESCRIPTION": "Field",
-      "SUM_VICTIM_COUNT": 1754
-    },
-    {
-      "DESCRIPTION": "Park",
-      "SUM_VICTIM_COUNT": 1505
-    },
-    {
-      "DESCRIPTION": "Jail",
-      "SUM_VICTIM_COUNT": 1338
-    },
-    {
-      "DESCRIPTION": "Hotel",
-      "SUM_VICTIM_COUNT": 1244
-    },
-    {
-      "DESCRIPTION": "Cyberspace",
-      "SUM_VICTIM_COUNT": 701
-    },
-    {
-      "DESCRIPTION": "Construction Site",
-      "SUM_VICTIM_COUNT": 490
-    },
-    {
-      "DESCRIPTION": "Bank",
-      "SUM_VICTIM_COUNT": 428
-    },
-    {
-      "DESCRIPTION": "Waterway",
-      "SUM_VICTIM_COUNT": 340
-    },
-    {
-      "DESCRIPTION": "Community Center",
-      "SUM_VICTIM_COUNT": 210
-    },
-    {
-      "DESCRIPTION": "Shelter",
-      "SUM_VICTIM_COUNT": 151
-    },
-    {
-      "DESCRIPTION": "Auto Dealership",
-      "SUM_VICTIM_COUNT": 97
-    },
-    {
-      "DESCRIPTION": "Arena",
-      "SUM_VICTIM_COUNT": 72
-    },
-    {
-      "DESCRIPTION": "Abandoned Structure",
-      "SUM_VICTIM_COUNT": 59
-    },
-    {
-      "DESCRIPTION": "Camp",
-      "SUM_VICTIM_COUNT": 58
-    },
-    {
-      "DESCRIPTION": "Gambling place",
-      "SUM_VICTIM_COUNT": 45
-    },
-    {
-      "DESCRIPTION": "Daycare Facility",
-      "SUM_VICTIM_COUNT": 39
-    },
-    {
-      "DESCRIPTION": "Farm",
-      "SUM_VICTIM_COUNT": 31
-    },
-    {
-      "DESCRIPTION": "Tribal Lands",
-      "SUM_VICTIM_COUNT": 14
-    },
-    {
-      "DESCRIPTION": "ATM",
-      "SUM_VICTIM_COUNT": 13
-    },
-    {
-      "DESCRIPTION": "Military Installation",
-      "SUM_VICTIM_COUNT": 7
-    }
-  ]
+  "children":
+    [
+  {
+    "LOCATION_NAME": "Residence/Home",
+    "SUM_LOCATION_RECORDS": 44108
+  },
+  {
+    "LOCATION_NAME": "Highway/Road/Alley/Street/Sidewalk",
+    "SUM_LOCATION_RECORDS": 26349
+  },
+  {
+    "LOCATION_NAME": "Other/Unknown",
+    "SUM_LOCATION_RECORDS": 17011
+  },
+  {
+    "LOCATION_NAME": "School/College",
+    "SUM_LOCATION_RECORDS": 10565
+  },
+  {
+    "LOCATION_NAME": "Parking/Drop Lot/Garage",
+    "SUM_LOCATION_RECORDS": 8628
+  },
+  {
+    "LOCATION_NAME": "Church/Synagogue/Temple/Mosque",
+    "SUM_LOCATION_RECORDS": 5753
+  },
+  {
+    "LOCATION_NAME": "Restaurant",
+    "SUM_LOCATION_RECORDS": 3092
+  },
+  {
+    "LOCATION_NAME": "Commercial/Office Building",
+    "SUM_LOCATION_RECORDS": 3069
+  },
+  {
+    "LOCATION_NAME": "School-Elementary/Secondary",
+    "SUM_LOCATION_RECORDS": 2721
+  },
+  {
+    "LOCATION_NAME": "Bar/Nightclub",
+    "SUM_LOCATION_RECORDS": 2552
+  },
+  {
+    "LOCATION_NAME": "Government/Public Building",
+    "SUM_LOCATION_RECORDS": 2315
+  },
+  {
+    "LOCATION_NAME": "Convenience Store",
+    "SUM_LOCATION_RECORDS": 2186
+  },
+  {
+    "LOCATION_NAME": "Air/Bus/Train Terminal",
+    "SUM_LOCATION_RECORDS": 1593
+  },
+  {
+    "LOCATION_NAME": "School-College/University",
+    "SUM_LOCATION_RECORDS": 1536
+  },
+  {
+    "LOCATION_NAME": "Specialty Store",
+    "SUM_LOCATION_RECORDS": 1511
+  },
+  {
+    "LOCATION_NAME": "Service/Gas Station",
+    "SUM_LOCATION_RECORDS": 1478
+  },
+  {
+    "LOCATION_NAME": "Department/Discount Store",
+    "SUM_LOCATION_RECORDS": 1422
+  },
+  {
+    "LOCATION_NAME": "Grocery/Supermarket",
+    "SUM_LOCATION_RECORDS": 1364
+  },
+  {
+    "LOCATION_NAME": "Field/Woods",
+    "SUM_LOCATION_RECORDS": 1355
+  },
+  {
+    "LOCATION_NAME": "Drug Store/Doctor's Office/Hospital",
+    "SUM_LOCATION_RECORDS": 1313
+  },
+  {
+    "LOCATION_NAME": "Park/Playground",
+    "SUM_LOCATION_RECORDS": 1219
+  },
+  {
+    "LOCATION_NAME": "Jail/Prison/Penitentiary/Corrections Facility",
+    "SUM_LOCATION_RECORDS": 1116
+  },
+  {
+    "LOCATION_NAME": "Hotel/Motel/Etc.",
+    "SUM_LOCATION_RECORDS": 1025
+  },
+  {
+    "LOCATION_NAME": "Construction Site",
+    "SUM_LOCATION_RECORDS": 417
+  },
+  {
+    "LOCATION_NAME": "Bank/Savings and Loan",
+    "SUM_LOCATION_RECORDS": 374
+  },
+  {
+    "LOCATION_NAME": "Liquor Store",
+    "SUM_LOCATION_RECORDS": 330
+  },
+  {
+    "LOCATION_NAME": "Lake/Waterway/Beach",
+    "SUM_LOCATION_RECORDS": 254
+  },
+  {
+    "LOCATION_NAME": "Cyberspace",
+    "SUM_LOCATION_RECORDS": 199
+  },
+  {
+    "LOCATION_NAME": "Shopping Mall",
+    "SUM_LOCATION_RECORDS": 191
+  },
+  {
+    "LOCATION_NAME": "Rental Storage Facility",
+    "SUM_LOCATION_RECORDS": 180
+  },
+  {
+    "LOCATION_NAME": "Community Center",
+    "SUM_LOCATION_RECORDS": 134
+  },
+  {
+    "LOCATION_NAME": "Shelter-Mission/Homeless",
+    "SUM_LOCATION_RECORDS": 128
+  },
+  {
+    "LOCATION_NAME": "Industrial Site",
+    "SUM_LOCATION_RECORDS": 106
+  },
+  {
+    "LOCATION_NAME": "Auto Dealership New/Used",
+    "SUM_LOCATION_RECORDS": 62
+  },
+  {
+    "LOCATION_NAME": "Rest Area",
+    "SUM_LOCATION_RECORDS": 59
+  },
+  {
+    "LOCATION_NAME": "Abandoned/Condemned Structure",
+    "SUM_LOCATION_RECORDS": 56
+  },
+  {
+    "LOCATION_NAME": "Arena/Stadium/Fairgrounds/Coliseum",
+    "SUM_LOCATION_RECORDS": 53
+  },
+  {
+    "LOCATION_NAME": "Camp/Campground",
+    "SUM_LOCATION_RECORDS": 46
+  },
+  {
+    "LOCATION_NAME": "Gambling Facility/Casino/Race Track",
+    "SUM_LOCATION_RECORDS": 35
+  },
+  {
+    "LOCATION_NAME": "Daycare Facility",
+    "SUM_LOCATION_RECORDS": 34
+  },
+  {
+    "LOCATION_NAME": "Amusement Park",
+    "SUM_LOCATION_RECORDS": 26
+  },
+  {
+    "LOCATION_NAME": "Farm Facility",
+    "SUM_LOCATION_RECORDS": 25
+  },
+  {
+    "LOCATION_NAME": "Dock/Wharf/Freight/Modal Terminal",
+    "SUM_LOCATION_RECORDS": 22
+  },
+  {
+    "LOCATION_NAME": "Tribal Lands",
+    "SUM_LOCATION_RECORDS": 12
+  },
+  {
+    "LOCATION_NAME": "ATM Separate from Bank",
+    "SUM_LOCATION_RECORDS": 11
+  },
+  {
+    "LOCATION_NAME": "Military Installation",
+    "SUM_LOCATION_RECORDS": 4
+  }
+]
 }

@@ -1,0 +1,181 @@
+INCIDENT_ID,DATA_YEAR,VICTIM_TYPES,SUM_VICTIM_TYPE_RECORDS
+79172,2001,Business,369
+79173,2001,Financial Institution,2
+79174,2001,Government,223
+79175,2001,Individual,8181
+79176,2001,Law Enforcement Officer,0
+79177,2001,Other,541
+79178,2001,Religious Organization,284
+79179,2001,Society/Public,284
+79180,2001,Unknown,46
+79181,2002,Business,293
+79182,2002,Financial Institution,0
+83382,2002,Government,176
+83383,2002,Individual,6247
+83384,2002,Law Enforcement Officer,0
+83385,2002,Other,394
+83386,2002,Religious Organization,195
+83387,2002,Society/Public,221
+83388,2002,Unknown,66
+83389,2003,Business,357
+83390,2003,Financial Institution,8
+83391,2003,Government,226
+83392,2003,Individual,6067
+83393,2003,Law Enforcement Officer,0
+83394,2003,Other,618
+83395,2003,Religious Organization,233
+83396,2003,Society/Public,58
+83397,2003,Unknown,64
+83398,2004,Business,381
+83399,2004,Financial Institution,2
+83400,2004,Government,281
+83401,2004,Individual,6128
+83402,2004,Law Enforcement Officer,0
+83403,2004,Other,613
+83404,2004,Religious Organization,253
+83405,2004,Society/Public,55
+83406,2004,Unknown,90
+83407,2005,Business,321
+83408,2005,Financial Institution,2
+83409,2005,Government,274
+83410,2005,Individual,5916
+83411,2005,Law Enforcement Officer,0
+83412,2005,Other,653
+83413,2005,Religious Organization,223
+83414,2005,Society/Public,77
+83415,2005,Unknown,77
+83416,2006,Business,478
+83417,2006,Financial Institution,4
+83418,2006,Government,322
+83419,2006,Individual,6106
+83420,2006,Law Enforcement Officer,0
+83421,2006,Other,596
+83422,2006,Religious Organization,263
+83423,2006,Society/Public,42
+83424,2006,Unknown,74
+83425,2007,Business,437
+83426,2007,Financial Institution,1
+83427,2007,Government,272
+83428,2007,Individual,6119
+83429,2007,Law Enforcement Officer,0
+83430,2007,Other,608
+83431,2007,Religious Organization,248
+83432,2007,Society/Public,21
+83433,2007,Unknown,76
+83434,2008,Business,496
+83435,2008,Financial Institution,3
+83436,2008,Government,331
+83437,2008,Individual,6362
+83438,2008,Law Enforcement Officer,0
+83439,2008,Other,666
+83440,2008,Religious Organization,246
+83441,2008,Society/Public,27
+83442,2008,Unknown,70
+83443,2009,Business,370
+83444,2009,Financial Institution,0
+83445,2009,Government,302
+83446,2009,Individual,5266
+83447,2009,Law Enforcement Officer,0
+83448,2009,Other,581
+83449,2009,Religious Organization,234
+83450,2009,Society/Public,26
+83451,2009,Unknown,35
+83452,2010,Business,363
+83453,2010,Financial Institution,5
+83454,2010,Government,274
+83455,2010,Individual,5419
+83456,2010,Law Enforcement Officer,0
+83457,2010,Other,479
+83458,2010,Religious Organization,197
+83459,2010,Society/Public,13
+83460,2010,Unknown,65
+83461,2011,Business,321
+83462,2011,Financial Institution,4
+83463,2011,Government,207
+83464,2011,Individual,5215
+83465,2011,Law Enforcement Officer,0
+83466,2011,Other,434
+83467,2011,Religious Organization,212
+83468,2011,Society/Public,24
+83469,2011,Unknown,38
+83470,2012,Business,345
+83471,2012,Financial Institution,6
+83472,2012,Government,210
+83473,2012,Individual,5175
+83474,2012,Law Enforcement Officer,0
+83475,2012,Other,561
+83476,2012,Religious Organization,213
+83477,2012,Society/Public,191
+83478,2012,Unknown,37
+83479,2013,Business,334
+83480,2013,Financial Institution,5
+83481,2013,Government,192
+83482,2013,Individual,4838
+83483,2013,Law Enforcement Officer,0
+83484,2013,Other,442
+83485,2013,Religious Organization,182
+83486,2013,Society/Public,69
+83487,2013,Unknown,36
+83488,2014,Business,337
+83489,2014,Financial Institution,6
+83490,2014,Government,156
+83491,2014,Individual,4506
+83492,2014,Law Enforcement Officer,0
+83493,2014,Other,416
+83494,2014,Religious Organization,153
+83495,2014,Society/Public,57
+83496,2014,Unknown,24
+83497,2015,Business,332
+83498,2015,Financial Institution,5
+83499,2015,Government,149
+83500,2015,Individual,4780
+83501,2015,Law Enforcement Officer,0
+83502,2015,Other,388
+83503,2015,Religious Organization,182
+83504,2015,Society/Public,62
+83505,2015,Unknown,37
+83506,2016,Business,420
+83507,2016,Financial Institution,9
+83508,2016,Government,240
+83509,2016,Individual,4960
+83510,2016,Law Enforcement Officer,0
+83511,2016,Other,438
+83512,2016,Religious Organization,154
+83513,2016,Society/Public,102
+83514,2016,Unknown,25
+83515,2017,Business,549
+83516,2017,Financial Institution,7
+83517,2017,Government,317
+83518,2017,Individual,5540
+83519,2017,Law Enforcement Officer,44
+83520,2017,Other,512
+83521,2017,Religious Organization,175
+83522,2017,Society/Public,221
+83523,2017,Unknown,46
+83524,2018,Business,447
+83525,2018,Financial Institution,2
+83526,2018,Government,235
+83527,2018,Individual,5742
+83528,2018,Law Enforcement Officer,50
+83529,2018,Other,403
+83530,2018,Religious Organization,158
+83531,2018,Society/Public,237
+83532,2018,Unknown,8
+83533,2019,Business,530
+83534,2019,Financial Institution,5
+83535,2019,Government,296
+83536,2019,Individual,6113
+83537,2019,Law Enforcement Officer,54
+83538,2019,Other,557
+83539,2019,Religious Organization,234
+83540,2019,Society/Public,189
+83541,2019,Unknown,37
+83542,2020,Business,742
+83543,2020,Financial Institution,6
+83544,2020,Government,407
+83545,2020,Individual,8210
+83546,2020,Law Enforcement Officer,80
+83547,2020,Other,397
+83548,2020,Religious Organization,244
+83549,2020,Society/Public,311
+83550,2020,Unknown,43

@@ -1,0 +1,961 @@
+INCIDENT_ID,DATA_YEAR,OFFENSE_TYPES,SUM_OFFENSE_RECORDS
+79220,2001,Aggravated Assault,949
+79221,2001,All Other Larceny,32
+79222,2001,Animal Cruelty,0
+79223,2001,Arson,89
+79224,2001,Assisting or Promoting Prostitution,0
+79225,2001,Betting/Wagering,0
+79226,2001,Bribery,0
+79227,2001,Burglary/Breaking & Entering,135
+79228,2001,Counterfeiting/Forgery,5
+79229,2001,Credit Card/Automated Teller Machine Fraud,1
+79230,2001,Destruction/Damage/Vandalism of Property,3053
+79231,2001,Drug Equipment Violations,5
+79232,2001,Drug/Narcotic Violations,25
+79233,2001,Embezzlement,1
+79234,2001,Extortion/Blackmail,0
+79235,2001,False Pretenses/Swindle/Confidence Game,6
+79236,2001,Fondling,6
+79237,2001,Hacking/Computer Invasion,0
+79238,2001,"Human Trafficking, Commercial Sex Acts",0
+79239,2001,Identity Theft,0
+79240,2001,Impersonation,2
+79241,2001,Incest,0
+79242,2001,Intimidation,3599
+79243,2001,Kidnapping/Abduction,4
+79244,2001,Motor Vehicle Theft,7
+79245,2001,Murder and Nonnegligent Manslaughter,10
+79246,2001,Negligent Manslaughter,0
+79247,2001,Not Specified,36
+79248,2001,Pocket-picking,0
+79249,2001,Pornography/Obscene Material,4
+79250,2001,Prostitution,1
+79251,2001,Purchasing Prostitution,0
+79252,2001,Purse-snatching,1
+79253,2001,Rape,5
+79254,2001,Robbery,157
+79255,2001,Sexual Assault With An Object,0
+79256,2001,Shoplifting,7
+79257,2001,Simple Assault,1809
+79258,2001,Sodomy,4
+79259,2001,Statutory Rape,0
+79260,2001,Stolen Property Offenses,1
+79261,2001,Theft From Building,19
+79262,2001,Theft From Coin-Operated Machine or Device,0
+79263,2001,Theft From Motor Vehicle,19
+79264,2001,Theft of Motor Vehicle Parts or Accessories,7
+79265,2001,Weapon Law Violations,17
+79266,2001,Welfare Fraud,0
+79267,2001,Wire Fraud,0
+79268,2002,Aggravated Assault,805
+79269,2002,All Other Larceny,44
+79270,2002,Animal Cruelty,0
+79271,2002,Arson,38
+79272,2002,Assisting or Promoting Prostitution,0
+79273,2002,Betting/Wagering,0
+79274,2002,Bribery,0
+79275,2002,Burglary/Breaking & Entering,128
+79276,2002,Counterfeiting/Forgery,6
+79277,2002,Credit Card/Automated Teller Machine Fraud,0
+79278,2002,Destruction/Damage/Vandalism of Property,2353
+79279,2002,Drug Equipment Violations,2
+79280,2002,Drug/Narcotic Violations,26
+79281,2002,Embezzlement,2
+79282,2002,Extortion/Blackmail,0
+79283,2002,False Pretenses/Swindle/Confidence Game,4
+79284,2002,Fondling,3
+79285,2002,Hacking/Computer Invasion,0
+79286,2002,"Human Trafficking, Commercial Sex Acts",0
+79287,2002,Identity Theft,0
+79288,2002,Impersonation,1
+79289,2002,Incest,0
+79290,2002,Intimidation,2500
+79291,2002,Kidnapping/Abduction,3
+79292,2002,Motor Vehicle Theft,8
+79293,2002,Murder and Nonnegligent Manslaughter,11
+79294,2002,Negligent Manslaughter,0
+79295,2002,Not Specified,28
+79296,2002,Pocket-picking,0
+79297,2002,Pornography/Obscene Material,1
+79298,2002,Prostitution,2
+79299,2002,Purchasing Prostitution,0
+79300,2002,Purse-snatching,2
+79301,2002,Rape,8
+79302,2002,Robbery,132
+79303,2002,Sexual Assault With An Object,1
+79304,2002,Shoplifting,15
+79305,2002,Simple Assault,1475
+79306,2002,Sodomy,0
+79307,2002,Statutory Rape,0
+79308,2002,Stolen Property Offenses,3
+79309,2002,Theft From Building,28
+79310,2002,Theft From Coin-Operated Machine or Device,1
+79311,2002,Theft From Motor Vehicle,23
+79312,2002,Theft of Motor Vehicle Parts or Accessories,8
+79313,2002,Weapon Law Violations,18
+79314,2002,Welfare Fraud,0
+79315,2002,Wire Fraud,0
+79316,2003,Aggravated Assault,708
+79317,2003,All Other Larceny,58
+79318,2003,Animal Cruelty,0
+79319,2003,Arson,35
+79320,2003,Assisting or Promoting Prostitution,0
+79321,2003,Betting/Wagering,0
+79322,2003,Bribery,0
+79323,2003,Burglary/Breaking & Entering,170
+79324,2003,Counterfeiting/Forgery,8
+79325,2003,Credit Card/Automated Teller Machine Fraud,2
+79326,2003,Destruction/Damage/Vandalism of Property,2627
+79327,2003,Drug Equipment Violations,1
+79328,2003,Drug/Narcotic Violations,29
+79329,2003,Embezzlement,1
+79330,2003,Extortion/Blackmail,1
+79331,2003,False Pretenses/Swindle/Confidence Game,18
+79332,2003,Fondling,4
+79333,2003,Hacking/Computer Invasion,0
+79334,2003,"Human Trafficking, Commercial Sex Acts",0
+79335,2003,Identity Theft,0
+79336,2003,Impersonation,3
+79337,2003,Incest,0
+79338,2003,Intimidation,2282
+79339,2003,Kidnapping/Abduction,4
+79340,2003,Motor Vehicle Theft,15
+79341,2003,Murder and Nonnegligent Manslaughter,13
+79342,2003,Negligent Manslaughter,0
+79343,2003,Not Specified,34
+79344,2003,Pocket-picking,1
+79345,2003,Pornography/Obscene Material,1
+79346,2003,Prostitution,2
+79347,2003,Purchasing Prostitution,0
+79348,2003,Purse-snatching,0
+79349,2003,Rape,6
+79350,2003,Robbery,110
+79351,2003,Sexual Assault With An Object,0
+79352,2003,Shoplifting,17
+79353,2003,Simple Assault,1530
+79354,2003,Sodomy,1
+79355,2003,Statutory Rape,0
+79356,2003,Stolen Property Offenses,3
+79357,2003,Theft From Building,26
+79358,2003,Theft From Coin-Operated Machine or Device,1
+79359,2003,Theft From Motor Vehicle,31
+79360,2003,Theft of Motor Vehicle Parts or Accessories,7
+79361,2003,Weapon Law Violations,22
+79362,2003,Welfare Fraud,0
+79363,2003,Wire Fraud,1
+79364,2004,Aggravated Assault,763
+79365,2004,All Other Larceny,66
+79366,2004,Animal Cruelty,0
+79367,2004,Arson,43
+79368,2004,Assisting or Promoting Prostitution,0
+79369,2004,Betting/Wagering,0
+79370,2004,Bribery,0
+79371,2004,Burglary/Breaking & Entering,143
+79372,2004,Counterfeiting/Forgery,5
+79373,2004,Credit Card/Automated Teller Machine Fraud,5
+79374,2004,Destruction/Damage/Vandalism of Property,2826
+79375,2004,Drug Equipment Violations,4
+79376,2004,Drug/Narcotic Violations,32
+79377,2004,Embezzlement,4
+79378,2004,Extortion/Blackmail,2
+79379,2004,False Pretenses/Swindle/Confidence Game,9
+79380,2004,Fondling,6
+79381,2004,Hacking/Computer Invasion,0
+79382,2004,"Human Trafficking, Commercial Sex Acts",0
+79383,2004,Identity Theft,0
+79384,2004,Impersonation,4
+79385,2004,Incest,0
+79386,2004,Intimidation,2290
+79387,2004,Kidnapping/Abduction,4
+79388,2004,Motor Vehicle Theft,13
+79389,2004,Murder and Nonnegligent Manslaughter,6
+79390,2004,Negligent Manslaughter,0
+79391,2004,Not Specified,26
+79392,2004,Pocket-picking,0
+79393,2004,Pornography/Obscene Material,2
+79394,2004,Prostitution,1
+79395,2004,Purchasing Prostitution,0
+79396,2004,Purse-snatching,1
+79397,2004,Rape,5
+79398,2004,Robbery,114
+79399,2004,Sexual Assault With An Object,0
+79400,2004,Shoplifting,14
+79401,2004,Simple Assault,1453
+79402,2004,Sodomy,4
+79403,2004,Statutory Rape,0
+79404,2004,Stolen Property Offenses,5
+79405,2004,Theft From Building,30
+79406,2004,Theft From Coin-Operated Machine or Device,1
+79407,2004,Theft From Motor Vehicle,18
+79408,2004,Theft of Motor Vehicle Parts or Accessories,13
+79409,2004,Weapon Law Violations,18
+79410,2004,Welfare Fraud,0
+79411,2004,Wire Fraud,0
+79412,2005,Aggravated Assault,849
+79413,2005,All Other Larceny,93
+79414,2005,Animal Cruelty,0
+79415,2005,Arson,42
+79416,2005,Assisting or Promoting Prostitution,0
+79417,2005,Betting/Wagering,0
+79418,2005,Bribery,0
+79419,2005,Burglary/Breaking & Entering,136
+79420,2005,Counterfeiting/Forgery,8
+79421,2005,Credit Card/Automated Teller Machine Fraud,4
+79422,2005,Destruction/Damage/Vandalism of Property,2661
+79423,2005,Drug Equipment Violations,7
+79424,2005,Drug/Narcotic Violations,45
+79425,2005,Embezzlement,0
+79426,2005,Extortion/Blackmail,2
+79427,2005,False Pretenses/Swindle/Confidence Game,15
+79428,2005,Fondling,6
+79429,2005,Hacking/Computer Invasion,0
+79430,2005,"Human Trafficking, Commercial Sex Acts",0
+79431,2005,Identity Theft,0
+79432,2005,Impersonation,2
+79433,2005,Incest,0
+79434,2005,Intimidation,2095
+79435,2005,Kidnapping/Abduction,3
+79436,2005,Motor Vehicle Theft,18
+79437,2005,Murder and Nonnegligent Manslaughter,6
+79438,2005,Negligent Manslaughter,1
+79439,2005,Not Specified,32
+79440,2005,Pocket-picking,4
+79441,2005,Pornography/Obscene Material,0
+79442,2005,Prostitution,2
+79443,2005,Purchasing Prostitution,0
+79444,2005,Purse-snatching,2
+79445,2005,Rape,3
+79446,2005,Robbery,135
+79447,2005,Sexual Assault With An Object,2
+79448,2005,Shoplifting,14
+79449,2005,Simple Assault,1357
+79450,2005,Sodomy,2
+79451,2005,Statutory Rape,0
+79452,2005,Stolen Property Offenses,3
+79453,2005,Theft From Building,28
+79454,2005,Theft From Coin-Operated Machine or Device,0
+79455,2005,Theft From Motor Vehicle,32
+79456,2005,Theft of Motor Vehicle Parts or Accessories,14
+79457,2005,Weapon Law Violations,25
+79458,2005,Welfare Fraud,0
+79459,2005,Wire Fraud,0
+79460,2006,Aggravated Assault,857
+79461,2006,All Other Larceny,117
+79462,2006,Animal Cruelty,0
+79463,2006,Arson,42
+79464,2006,Assisting or Promoting Prostitution,0
+79465,2006,Betting/Wagering,0
+79466,2006,Bribery,0
+79467,2006,Burglary/Breaking & Entering,148
+79468,2006,Counterfeiting/Forgery,14
+79469,2006,Credit Card/Automated Teller Machine Fraud,10
+79470,2006,Destruction/Damage/Vandalism of Property,2911
+79471,2006,Drug Equipment Violations,4
+79472,2006,Drug/Narcotic Violations,19
+79473,2006,Embezzlement,4
+79474,2006,Extortion/Blackmail,2
+79475,2006,False Pretenses/Swindle/Confidence Game,17
+79476,2006,Fondling,6
+79477,2006,Hacking/Computer Invasion,0
+79478,2006,"Human Trafficking, Commercial Sex Acts",0
+79479,2006,Identity Theft,0
+79480,2006,Impersonation,5
+79481,2006,Incest,3
+79482,2006,Intimidation,2059
+79483,2006,Kidnapping/Abduction,2
+79484,2006,Motor Vehicle Theft,25
+79485,2006,Murder and Nonnegligent Manslaughter,3
+79486,2006,Negligent Manslaughter,0
+79487,2006,Not Specified,28
+79488,2006,Pocket-picking,0
+79489,2006,Pornography/Obscene Material,2
+79490,2006,Prostitution,2
+79491,2006,Purchasing Prostitution,0
+79492,2006,Purse-snatching,0
+79493,2006,Rape,7
+79494,2006,Robbery,140
+79495,2006,Sexual Assault With An Object,2
+79496,2006,Shoplifting,20
+79497,2006,Simple Assault,1446
+79498,2006,Sodomy,4
+79499,2006,Statutory Rape,0
+79500,2006,Stolen Property Offenses,4
+79501,2006,Theft From Building,25
+79502,2006,Theft From Coin-Operated Machine or Device,1
+79503,2006,Theft From Motor Vehicle,42
+79504,2006,Theft of Motor Vehicle Parts or Accessories,13
+79505,2006,Weapon Law Violations,16
+79506,2006,Welfare Fraud,0
+79507,2006,Wire Fraud,1
+79508,2007,Aggravated Assault,854
+79509,2007,All Other Larceny,98
+79510,2007,Animal Cruelty,0
+79511,2007,Arson,40
+79512,2007,Assisting or Promoting Prostitution,0
+79513,2007,Betting/Wagering,0
+79514,2007,Bribery,0
+79515,2007,Burglary/Breaking & Entering,152
+79516,2007,Counterfeiting/Forgery,10
+79517,2007,Credit Card/Automated Teller Machine Fraud,7
+79518,2007,Destruction/Damage/Vandalism of Property,2917
+79519,2007,Drug Equipment Violations,2
+79520,2007,Drug/Narcotic Violations,3
+79521,2007,Embezzlement,3
+79522,2007,Extortion/Blackmail,3
+79523,2007,False Pretenses/Swindle/Confidence Game,11
+79524,2007,Fondling,5
+79525,2007,Hacking/Computer Invasion,0
+79526,2007,"Human Trafficking, Commercial Sex Acts",0
+79527,2007,Identity Theft,0
+79528,2007,Impersonation,4
+79529,2007,Incest,0
+79530,2007,Intimidation,2054
+79531,2007,Kidnapping/Abduction,14
+79532,2007,Motor Vehicle Theft,20
+79533,2007,Murder and Nonnegligent Manslaughter,9
+79534,2007,Negligent Manslaughter,0
+79535,2007,Not Specified,22
+79536,2007,Pocket-picking,4
+79537,2007,Pornography/Obscene Material,1
+79538,2007,Prostitution,0
+79539,2007,Purchasing Prostitution,0
+79540,2007,Purse-snatching,2
+79541,2007,Rape,1
+79542,2007,Robbery,175
+79543,2007,Sexual Assault With An Object,1
+79544,2007,Shoplifting,19
+79545,2007,Simple Assault,1422
+79546,2007,Sodomy,7
+79547,2007,Statutory Rape,0
+79548,2007,Stolen Property Offenses,3
+79549,2007,Theft From Building,25
+79550,2007,Theft From Coin-Operated Machine or Device,0
+79551,2007,Theft From Motor Vehicle,32
+79552,2007,Theft of Motor Vehicle Parts or Accessories,10
+79553,2007,Weapon Law Violations,15
+79554,2007,Welfare Fraud,0
+79555,2007,Wire Fraud,1
+79556,2008,Aggravated Assault,797
+79557,2008,All Other Larceny,108
+79558,2008,Animal Cruelty,0
+79559,2008,Arson,54
+79560,2008,Assisting or Promoting Prostitution,0
+79561,2008,Betting/Wagering,0
+79562,2008,Bribery,0
+79563,2008,Burglary/Breaking & Entering,162
+79564,2008,Counterfeiting/Forgery,7
+79565,2008,Credit Card/Automated Teller Machine Fraud,4
+79566,2008,Destruction/Damage/Vandalism of Property,3046
+79567,2008,Drug Equipment Violations,5
+79568,2008,Drug/Narcotic Violations,7
+79569,2008,Embezzlement,0
+79570,2008,Extortion/Blackmail,2
+79571,2008,False Pretenses/Swindle/Confidence Game,11
+79572,2008,Fondling,3
+79573,2008,Hacking/Computer Invasion,0
+79574,2008,"Human Trafficking, Commercial Sex Acts",0
+79575,2008,Identity Theft,0
+79576,2008,Impersonation,4
+79577,2008,Incest,0
+79578,2008,Intimidation,2237
+79579,2008,Kidnapping/Abduction,8
+79580,2008,Motor Vehicle Theft,30
+79581,2008,Murder and Nonnegligent Manslaughter,8
+79582,2008,Negligent Manslaughter,0
+79583,2008,Not Specified,40
+79584,2008,Pocket-picking,1
+79585,2008,Pornography/Obscene Material,0
+79586,2008,Prostitution,0
+79587,2008,Purchasing Prostitution,0
+79588,2008,Purse-snatching,3
+79589,2008,Rape,11
+79590,2008,Robbery,149
+79591,2008,Sexual Assault With An Object,4
+79592,2008,Shoplifting,25
+79593,2008,Simple Assault,1566
+79594,2008,Sodomy,2
+79595,2008,Statutory Rape,0
+79596,2008,Stolen Property Offenses,8
+79597,2008,Theft From Building,28
+79598,2008,Theft From Coin-Operated Machine or Device,0
+79599,2008,Theft From Motor Vehicle,27
+79600,2008,Theft of Motor Vehicle Parts or Accessories,9
+79601,2008,Weapon Law Violations,16
+79602,2008,Welfare Fraud,0
+79603,2008,Wire Fraud,0
+79604,2009,Aggravated Assault,696
+79605,2009,All Other Larceny,79
+79606,2009,Animal Cruelty,0
+79607,2009,Arson,41
+79608,2009,Assisting or Promoting Prostitution,0
+79609,2009,Betting/Wagering,0
+79610,2009,Bribery,0
+79611,2009,Burglary/Breaking & Entering,133
+79612,2009,Counterfeiting/Forgery,9
+79613,2009,Credit Card/Automated Teller Machine Fraud,4
+79614,2009,Destruction/Damage/Vandalism of Property,2467
+79615,2009,Drug Equipment Violations,3
+79616,2009,Drug/Narcotic Violations,12
+79617,2009,Embezzlement,1
+79618,2009,Extortion/Blackmail,2
+79619,2009,False Pretenses/Swindle/Confidence Game,6
+79620,2009,Fondling,4
+79621,2009,Hacking/Computer Invasion,0
+79622,2009,"Human Trafficking, Commercial Sex Acts",0
+79623,2009,Identity Theft,0
+79624,2009,Impersonation,4
+79625,2009,Incest,1
+79626,2009,Intimidation,1705
+79627,2009,Kidnapping/Abduction,3
+79628,2009,Motor Vehicle Theft,11
+79629,2009,Murder and Nonnegligent Manslaughter,8
+79630,2009,Negligent Manslaughter,0
+79631,2009,Not Specified,20
+79632,2009,Pocket-picking,0
+79633,2009,Pornography/Obscene Material,2
+79634,2009,Prostitution,0
+79635,2009,Purchasing Prostitution,0
+79636,2009,Purse-snatching,0
+79637,2009,Rape,10
+79638,2009,Robbery,122
+79639,2009,Sexual Assault With An Object,1
+79640,2009,Shoplifting,24
+79641,2009,Simple Assault,1461
+79642,2009,Sodomy,1
+79643,2009,Statutory Rape,1
+79644,2009,Stolen Property Offenses,3
+79645,2009,Theft From Building,13
+79646,2009,Theft From Coin-Operated Machine or Device,0
+79647,2009,Theft From Motor Vehicle,16
+79648,2009,Theft of Motor Vehicle Parts or Accessories,4
+79649,2009,Weapon Law Violations,9
+79650,2009,Welfare Fraud,0
+79651,2009,Wire Fraud,0
+79652,2010,Aggravated Assault,695
+79653,2010,All Other Larceny,65
+79654,2010,Animal Cruelty,0
+79655,2010,Arson,43
+79656,2010,Assisting or Promoting Prostitution,0
+79657,2010,Betting/Wagering,0
+79658,2010,Bribery,0
+79659,2010,Burglary/Breaking & Entering,125
+79660,2010,Counterfeiting/Forgery,7
+79661,2010,Credit Card/Automated Teller Machine Fraud,4
+79662,2010,Destruction/Damage/Vandalism of Property,2322
+79663,2010,Drug Equipment Violations,1
+79664,2010,Drug/Narcotic Violations,5
+79665,2010,Embezzlement,1
+79666,2010,Extortion/Blackmail,0
+79667,2010,False Pretenses/Swindle/Confidence Game,12
+79668,2010,Fondling,5
+79669,2010,Hacking/Computer Invasion,0
+79670,2010,"Human Trafficking, Commercial Sex Acts",0
+79671,2010,Identity Theft,0
+79672,2010,Impersonation,6
+79673,2010,Incest,0
+79674,2010,Intimidation,1791
+79675,2010,Kidnapping/Abduction,5
+79676,2010,Motor Vehicle Theft,16
+79677,2010,Murder and Nonnegligent Manslaughter,6
+79678,2010,Negligent Manslaughter,0
+79679,2010,Not Specified,33
+79680,2010,Pocket-picking,0
+79681,2010,Pornography/Obscene Material,1
+79682,2010,Prostitution,0
+79683,2010,Purchasing Prostitution,0
+79684,2010,Purse-snatching,0
+79685,2010,Rape,4
+79686,2010,Robbery,147
+79687,2010,Sexual Assault With An Object,0
+79688,2010,Shoplifting,24
+79689,2010,Simple Assault,1474
+79690,2010,Sodomy,1
+79691,2010,Statutory Rape,0
+79692,2010,Stolen Property Offenses,3
+79693,2010,Theft From Building,14
+79694,2010,Theft From Coin-Operated Machine or Device,1
+79695,2010,Theft From Motor Vehicle,31
+79696,2010,Theft of Motor Vehicle Parts or Accessories,7
+79697,2010,Weapon Law Violations,7
+79698,2010,Welfare Fraud,0
+79699,2010,Wire Fraud,2
+79700,2011,Aggravated Assault,682
+79701,2011,All Other Larceny,71
+79702,2011,Animal Cruelty,0
+79703,2011,Arson,43
+79704,2011,Assisting or Promoting Prostitution,0
+79705,2011,Betting/Wagering,0
+79706,2011,Bribery,0
+79707,2011,Burglary/Breaking & Entering,132
+79708,2011,Counterfeiting/Forgery,9
+79709,2011,Credit Card/Automated Teller Machine Fraud,6
+79710,2011,Destruction/Damage/Vandalism of Property,2143
+79711,2011,Drug Equipment Violations,3
+79712,2011,Drug/Narcotic Violations,13
+79713,2011,Embezzlement,3
+79714,2011,Extortion/Blackmail,1
+79715,2011,False Pretenses/Swindle/Confidence Game,8
+79716,2011,Fondling,4
+79717,2011,Hacking/Computer Invasion,0
+79718,2011,"Human Trafficking, Commercial Sex Acts",0
+79719,2011,Identity Theft,0
+79720,2011,Impersonation,3
+79721,2011,Incest,0
+79722,2011,Intimidation,1731
+79723,2011,Kidnapping/Abduction,4
+79724,2011,Motor Vehicle Theft,7
+79725,2011,Murder and Nonnegligent Manslaughter,5
+79726,2011,Negligent Manslaughter,0
+79727,2011,Not Specified,26
+79728,2011,Pocket-picking,3
+79729,2011,Pornography/Obscene Material,0
+79730,2011,Prostitution,0
+79731,2011,Purchasing Prostitution,0
+79732,2011,Purse-snatching,1
+79733,2011,Rape,7
+79734,2011,Robbery,131
+79735,2011,Sexual Assault With An Object,1
+79736,2011,Shoplifting,16
+79737,2011,Simple Assault,1348
+79738,2011,Sodomy,3
+79739,2011,Statutory Rape,0
+79740,2011,Stolen Property Offenses,5
+79741,2011,Theft From Building,16
+79742,2011,Theft From Coin-Operated Machine or Device,0
+79743,2011,Theft From Motor Vehicle,25
+79744,2011,Theft of Motor Vehicle Parts or Accessories,8
+79745,2011,Weapon Law Violations,9
+79746,2011,Welfare Fraud,0
+79747,2011,Wire Fraud,0
+79748,2012,Aggravated Assault,685
+79749,2012,All Other Larceny,100
+79750,2012,Animal Cruelty,0
+79751,2012,Arson,41
+79752,2012,Assisting or Promoting Prostitution,0
+79753,2012,Betting/Wagering,0
+79754,2012,Bribery,0
+79755,2012,Burglary/Breaking & Entering,145
+79756,2012,Counterfeiting/Forgery,9
+79757,2012,Credit Card/Automated Teller Machine Fraud,10
+79758,2012,Destruction/Damage/Vandalism of Property,2177
+79759,2012,Drug Equipment Violations,27
+79760,2012,Drug/Narcotic Violations,151
+79761,2012,Embezzlement,6
+79762,2012,Extortion/Blackmail,3
+79763,2012,False Pretenses/Swindle/Confidence Game,12
+79764,2012,Fondling,17
+79765,2012,Hacking/Computer Invasion,0
+79766,2012,"Human Trafficking, Commercial Sex Acts",0
+79767,2012,Identity Theft,0
+79768,2012,Impersonation,8
+79769,2012,Incest,1
+79770,2012,Intimidation,1605
+79771,2012,Kidnapping/Abduction,6
+79772,2012,Motor Vehicle Theft,21
+79773,2012,Murder and Nonnegligent Manslaughter,5
+79774,2012,Negligent Manslaughter,1
+79775,2012,Not Specified,33
+79776,2012,Pocket-picking,1
+79777,2012,Pornography/Obscene Material,1
+79778,2012,Prostitution,0
+79779,2012,Purchasing Prostitution,0
+79780,2012,Purse-snatching,0
+79781,2012,Rape,16
+79782,2012,Robbery,134
+79783,2012,Sexual Assault With An Object,0
+79784,2012,Shoplifting,34
+79785,2012,Simple Assault,1438
+79786,2012,Sodomy,2
+79787,2012,Statutory Rape,1
+79788,2012,Stolen Property Offenses,3
+79789,2012,Theft From Building,30
+79790,2012,Theft From Coin-Operated Machine or Device,3
+79791,2012,Theft From Motor Vehicle,53
+79792,2012,Theft of Motor Vehicle Parts or Accessories,7
+79793,2012,Weapon Law Violations,15
+79794,2012,Welfare Fraud,0
+79795,2012,Wire Fraud,1
+79796,2013,Aggravated Assault,612
+79797,2013,All Other Larceny,84
+79798,2013,Animal Cruelty,0
+79799,2013,Arson,35
+79800,2013,Assisting or Promoting Prostitution,2
+79801,2013,Betting/Wagering,0
+79802,2013,Bribery,0
+79803,2013,Burglary/Breaking & Entering,169
+79804,2013,Counterfeiting/Forgery,10
+79805,2013,Credit Card/Automated Teller Machine Fraud,10
+79806,2013,Destruction/Damage/Vandalism of Property,1826
+79807,2013,Drug Equipment Violations,17
+79808,2013,Drug/Narcotic Violations,35
+79809,2013,Embezzlement,2
+79810,2013,Extortion/Blackmail,6
+79811,2013,False Pretenses/Swindle/Confidence Game,15
+79812,2013,Fondling,16
+79813,2013,Hacking/Computer Invasion,0
+79814,2013,"Human Trafficking, Commercial Sex Acts",0
+79815,2013,Identity Theft,0
+79816,2013,Impersonation,10
+79817,2013,Incest,1
+79818,2013,Intimidation,1548
+79819,2013,Kidnapping/Abduction,6
+79820,2013,Motor Vehicle Theft,18
+79821,2013,Murder and Nonnegligent Manslaughter,5
+79822,2013,Negligent Manslaughter,0
+79823,2013,Not Specified,30
+79824,2013,Pocket-picking,2
+79825,2013,Pornography/Obscene Material,1
+79826,2013,Prostitution,1
+79827,2013,Purchasing Prostitution,1
+79828,2013,Purse-snatching,2
+79829,2013,Rape,21
+79830,2013,Robbery,126
+79831,2013,Sexual Assault With An Object,1
+79832,2013,Shoplifting,32
+79833,2013,Simple Assault,1475
+79834,2013,Sodomy,3
+79835,2013,Statutory Rape,3
+79836,2013,Stolen Property Offenses,4
+79837,2013,Theft From Building,27
+79838,2013,Theft From Coin-Operated Machine or Device,0
+79839,2013,Theft From Motor Vehicle,42
+79840,2013,Theft of Motor Vehicle Parts or Accessories,10
+79841,2013,Weapon Law Violations,19
+79842,2013,Welfare Fraud,0
+79843,2013,Wire Fraud,2
+79844,2014,Aggravated Assault,606
+79845,2014,All Other Larceny,111
+79846,2014,Animal Cruelty,0
+79847,2014,Arson,28
+79848,2014,Assisting or Promoting Prostitution,1
+79849,2014,Betting/Wagering,0
+79850,2014,Bribery,1
+79851,2014,Burglary/Breaking & Entering,166
+79852,2014,Counterfeiting/Forgery,9
+79853,2014,Credit Card/Automated Teller Machine Fraud,7
+79854,2014,Destruction/Damage/Vandalism of Property,1728
+79855,2014,Drug Equipment Violations,13
+79856,2014,Drug/Narcotic Violations,33
+79857,2014,Embezzlement,3
+79858,2014,Extortion/Blackmail,1
+79859,2014,False Pretenses/Swindle/Confidence Game,19
+79860,2014,Fondling,6
+79861,2014,Hacking/Computer Invasion,0
+79862,2014,"Human Trafficking, Commercial Sex Acts",0
+79863,2014,Identity Theft,0
+79864,2014,Impersonation,9
+79865,2014,Incest,0
+79866,2014,Intimidation,1391
+79867,2014,Kidnapping/Abduction,4
+79868,2014,Motor Vehicle Theft,23
+79869,2014,Murder and Nonnegligent Manslaughter,5
+79870,2014,Negligent Manslaughter,0
+79871,2014,Not Specified,30
+79872,2014,Pocket-picking,1
+79873,2014,Pornography/Obscene Material,3
+79874,2014,Prostitution,0
+79875,2014,Purchasing Prostitution,0
+79876,2014,Purse-snatching,0
+79877,2014,Rape,8
+79878,2014,Robbery,122
+79879,2014,Sexual Assault With An Object,1
+79880,2014,Shoplifting,33
+79881,2014,Simple Assault,1341
+79882,2014,Sodomy,1
+79883,2014,Statutory Rape,1
+79884,2014,Stolen Property Offenses,4
+79885,2014,Theft From Building,34
+79886,2014,Theft From Coin-Operated Machine or Device,1
+79887,2014,Theft From Motor Vehicle,34
+79888,2014,Theft of Motor Vehicle Parts or Accessories,7
+79889,2014,Weapon Law Violations,10
+79890,2014,Welfare Fraud,0
+79891,2014,Wire Fraud,2
+79892,2015,Aggravated Assault,680
+79893,2015,All Other Larceny,113
+79894,2015,Animal Cruelty,0
+79895,2015,Arson,30
+79896,2015,Assisting or Promoting Prostitution,0
+79897,2015,Betting/Wagering,0
+79898,2015,Bribery,0
+79899,2015,Burglary/Breaking & Entering,148
+79900,2015,Counterfeiting/Forgery,6
+79901,2015,Credit Card/Automated Teller Machine Fraud,14
+79902,2015,Destruction/Damage/Vandalism of Property,1708
+79903,2015,Drug Equipment Violations,16
+79904,2015,Drug/Narcotic Violations,33
+79905,2015,Embezzlement,5
+79906,2015,Extortion/Blackmail,1
+79907,2015,False Pretenses/Swindle/Confidence Game,15
+79908,2015,Fondling,5
+79909,2015,Hacking/Computer Invasion,0
+79910,2015,"Human Trafficking, Commercial Sex Acts",0
+79911,2015,Identity Theft,0
+79912,2015,Impersonation,17
+79913,2015,Incest,0
+79914,2015,Intimidation,1494
+79915,2015,Kidnapping/Abduction,6
+79916,2015,Motor Vehicle Theft,23
+79917,2015,Murder and Nonnegligent Manslaughter,8
+79918,2015,Negligent Manslaughter,0
+79919,2015,Not Specified,35
+79920,2015,Pocket-picking,0
+79921,2015,Pornography/Obscene Material,1
+79922,2015,Prostitution,1
+79923,2015,Purchasing Prostitution,0
+79924,2015,Purse-snatching,1
+79925,2015,Rape,9
+79926,2015,Robbery,121
+79927,2015,Sexual Assault With An Object,1
+79928,2015,Shoplifting,43
+79929,2015,Simple Assault,1443
+79930,2015,Sodomy,4
+79931,2015,Statutory Rape,2
+79932,2015,Stolen Property Offenses,6
+79933,2015,Theft From Building,27
+79934,2015,Theft From Coin-Operated Machine or Device,0
+79935,2015,Theft From Motor Vehicle,34
+79936,2015,Theft of Motor Vehicle Parts or Accessories,2
+79937,2015,Weapon Law Violations,16
+79938,2015,Welfare Fraud,0
+79939,2015,Wire Fraud,2
+79940,2016,Aggravated Assault,702
+79941,2016,All Other Larceny,86
+79942,2016,Animal Cruelty,0
+79943,2016,Arson,45
+79944,2016,Assisting or Promoting Prostitution,0
+79945,2016,Betting/Wagering,0
+79946,2016,Bribery,0
+79947,2016,Burglary/Breaking & Entering,128
+79948,2016,Counterfeiting/Forgery,10
+79949,2016,Credit Card/Automated Teller Machine Fraud,11
+79950,2016,Destruction/Damage/Vandalism of Property,1934
+79951,2016,Drug Equipment Violations,22
+79952,2016,Drug/Narcotic Violations,50
+79953,2016,Embezzlement,2
+79954,2016,Extortion/Blackmail,1
+79955,2016,False Pretenses/Swindle/Confidence Game,13
+79956,2016,Fondling,7
+79957,2016,Hacking/Computer Invasion,0
+79958,2016,"Human Trafficking, Commercial Sex Acts",0
+79959,2016,Identity Theft,3
+79960,2016,Impersonation,14
+79961,2016,Incest,0
+79962,2016,Intimidation,1613
+79963,2016,Kidnapping/Abduction,11
+79964,2016,Motor Vehicle Theft,23
+79965,2016,Murder and Nonnegligent Manslaughter,5
+79966,2016,Negligent Manslaughter,0
+79967,2016,Not Specified,37
+79968,2016,Pocket-picking,1
+79969,2016,Pornography/Obscene Material,2
+79970,2016,Prostitution,0
+79971,2016,Purchasing Prostitution,0
+79972,2016,Purse-snatching,0
+79973,2016,Rape,17
+79974,2016,Robbery,138
+79975,2016,Sexual Assault With An Object,2
+79976,2016,Shoplifting,41
+79977,2016,Simple Assault,1483
+79978,2016,Sodomy,6
+79979,2016,Statutory Rape,1
+79980,2016,Stolen Property Offenses,10
+79981,2016,Theft From Building,30
+79982,2016,Theft From Coin-Operated Machine or Device,0
+79983,2016,Theft From Motor Vehicle,39
+79984,2016,Theft of Motor Vehicle Parts or Accessories,9
+79985,2016,Weapon Law Violations,34
+79986,2016,Welfare Fraud,0
+79987,2016,Wire Fraud,0
+79988,2017,Aggravated Assault,798
+79989,2017,All Other Larceny,150
+79990,2017,Animal Cruelty,0
+79991,2017,Arson,44
+79992,2017,Assisting or Promoting Prostitution,2
+79993,2017,Betting/Wagering,1
+79994,2017,Bribery,0
+79995,2017,Burglary/Breaking & Entering,158
+79996,2017,Counterfeiting/Forgery,15
+79997,2017,Credit Card/Automated Teller Machine Fraud,7
+79998,2017,Destruction/Damage/Vandalism of Property,2373
+79999,2017,Drug Equipment Violations,52
+80000,2017,Drug/Narcotic Violations,135
+80001,2017,Embezzlement,4
+80002,2017,Extortion/Blackmail,3
+80003,2017,False Pretenses/Swindle/Confidence Game,20
+80004,2017,Fondling,15
+80005,2017,Hacking/Computer Invasion,2
+80006,2017,"Human Trafficking, Commercial Sex Acts",1
+80007,2017,Identity Theft,7
+80008,2017,Impersonation,8
+80009,2017,Incest,0
+80010,2017,Intimidation,1854
+80011,2017,Kidnapping/Abduction,9
+80012,2017,Motor Vehicle Theft,40
+80013,2017,Murder and Nonnegligent Manslaughter,14
+80014,2017,Negligent Manslaughter,0
+80015,2017,Not Specified,49
+80016,2017,Pocket-picking,3
+80017,2017,Pornography/Obscene Material,6
+80018,2017,Prostitution,1
+80019,2017,Purchasing Prostitution,1
+80020,2017,Purse-snatching,2
+80021,2017,Rape,17
+80022,2017,Robbery,154
+80023,2017,Sexual Assault With An Object,5
+80024,2017,Shoplifting,60
+80025,2017,Simple Assault,1449
+80026,2017,Sodomy,2
+80027,2017,Statutory Rape,2
+80028,2017,Stolen Property Offenses,13
+80029,2017,Theft From Building,31
+80030,2017,Theft From Coin-Operated Machine or Device,0
+80031,2017,Theft From Motor Vehicle,56
+80032,2017,Theft of Motor Vehicle Parts or Accessories,3
+80033,2017,Weapon Law Violations,33
+80034,2017,Welfare Fraud,0
+80035,2017,Wire Fraud,1
+80036,2018,Aggravated Assault,836
+80037,2018,All Other Larceny,146
+80038,2018,Animal Cruelty,2
+80039,2018,Arson,44
+80040,2018,Assisting or Promoting Prostitution,0
+80041,2018,Betting/Wagering,0
+80042,2018,Bribery,2
+80043,2018,Burglary/Breaking & Entering,137
+80044,2018,Counterfeiting/Forgery,18
+80045,2018,Credit Card/Automated Teller Machine Fraud,14
+80046,2018,Destruction/Damage/Vandalism of Property,1910
+80047,2018,Drug Equipment Violations,56
+80048,2018,Drug/Narcotic Violations,132
+80049,2018,Embezzlement,5
+80050,2018,Extortion/Blackmail,4
+80051,2018,False Pretenses/Swindle/Confidence Game,18
+80052,2018,Fondling,15
+80053,2018,Hacking/Computer Invasion,0
+80054,2018,"Human Trafficking, Commercial Sex Acts",0
+80055,2018,Identity Theft,9
+80056,2018,Impersonation,8
+80057,2018,Incest,0
+80058,2018,Intimidation,1989
+80059,2018,Kidnapping/Abduction,10
+80060,2018,Motor Vehicle Theft,46
+80061,2018,Murder and Nonnegligent Manslaughter,12
+80062,2018,Negligent Manslaughter,0
+80063,2018,Not Specified,49
+80064,2018,Pocket-picking,0
+80065,2018,Pornography/Obscene Material,8
+80066,2018,Prostitution,0
+80067,2018,Purchasing Prostitution,0
+80068,2018,Purse-snatching,4
+80069,2018,Rape,12
+80070,2018,Robbery,134
+80071,2018,Sexual Assault With An Object,8
+80072,2018,Shoplifting,49
+80073,2018,Simple Assault,1675
+80074,2018,Sodomy,3
+80075,2018,Statutory Rape,1
+80076,2018,Stolen Property Offenses,12
+80077,2018,Theft From Building,21
+80078,2018,Theft From Coin-Operated Machine or Device,0
+80079,2018,Theft From Motor Vehicle,51
+80080,2018,Theft of Motor Vehicle Parts or Accessories,9
+80081,2018,Weapon Law Violations,45
+80082,2018,Welfare Fraud,1
+80083,2018,Wire Fraud,5
+80084,2019,Aggravated Assault,879
+80085,2019,All Other Larceny,121
+80086,2019,Animal Cruelty,0
+80087,2019,Arson,59
+80088,2019,Assisting or Promoting Prostitution,0
+80089,2019,Betting/Wagering,0
+80090,2019,Bribery,0
+80091,2019,Burglary/Breaking & Entering,121
+80092,2019,Counterfeiting/Forgery,4
+80093,2019,Credit Card/Automated Teller Machine Fraud,11
+80094,2019,Destruction/Damage/Vandalism of Property,2223
+80095,2019,Drug Equipment Violations,51
+80096,2019,Drug/Narcotic Violations,106
+80097,2019,Embezzlement,2
+80098,2019,Extortion/Blackmail,4
+80099,2019,False Pretenses/Swindle/Confidence Game,14
+80100,2019,Fondling,19
+80101,2019,Hacking/Computer Invasion,0
+80102,2019,"Human Trafficking, Commercial Sex Acts",2
+80103,2019,Identity Theft,8
+80104,2019,Impersonation,6
+80105,2019,Incest,0
+80106,2019,Intimidation,2345
+80107,2019,Kidnapping/Abduction,11
+80108,2019,Motor Vehicle Theft,32
+80109,2019,Murder and Nonnegligent Manslaughter,19
+80110,2019,Negligent Manslaughter,1
+80111,2019,Not Specified,27
+80112,2019,Pocket-picking,1
+80113,2019,Pornography/Obscene Material,5
+80114,2019,Prostitution,1
+80115,2019,Purchasing Prostitution,0
+80116,2019,Purse-snatching,1
+80117,2019,Rape,15
+80118,2019,Robbery,124
+80119,2019,Sexual Assault With An Object,11
+80120,2019,Shoplifting,40
+80121,2019,Simple Assault,1775
+80122,2019,Sodomy,3
+80123,2019,Statutory Rape,1
+80124,2019,Stolen Property Offenses,6
+80125,2019,Theft From Building,20
+80126,2019,Theft From Coin-Operated Machine or Device,1
+80127,2019,Theft From Motor Vehicle,32
+80128,2019,Theft of Motor Vehicle Parts or Accessories,7
+80129,2019,Weapon Law Violations,40
+80130,2019,Welfare Fraud,0
+80131,2019,Wire Fraud,0
+80132,2020,Aggravated Assault,1155
+80133,2020,All Other Larceny,286
+80134,2020,Animal Cruelty,6
+80135,2020,Arson,76
+80136,2020,Assisting or Promoting Prostitution,1
+80137,2020,Betting/Wagering,0
+80138,2020,Bribery,0
+80139,2020,Burglary/Breaking & Entering,172
+80140,2020,Counterfeiting/Forgery,19
+80141,2020,Credit Card/Automated Teller Machine Fraud,18
+80142,2020,Destruction/Damage/Vandalism of Property,2669
+80143,2020,Drug Equipment Violations,68
+80144,2020,Drug/Narcotic Violations,158
+80145,2020,Embezzlement,0
+80146,2020,Extortion/Blackmail,6
+80147,2020,False Pretenses/Swindle/Confidence Game,39
+80148,2020,Fondling,21
+80149,2020,Hacking/Computer Invasion,5
+80150,2020,"Human Trafficking, Commercial Sex Acts",0
+80151,2020,Identity Theft,18
+80152,2020,Impersonation,16
+80153,2020,Incest,0
+80154,2020,Intimidation,3217
+80155,2020,Kidnapping/Abduction,10
+80156,2020,Motor Vehicle Theft,54
+80157,2020,Murder and Nonnegligent Manslaughter,22
+80158,2020,Negligent Manslaughter,2
+80159,2020,Not Specified,32
+80160,2020,Pocket-picking,2
+80161,2020,Pornography/Obscene Material,18
+80162,2020,Prostitution,1
+80163,2020,Purchasing Prostitution,0
+80164,2020,Purse-snatching,1
+80165,2020,Rape,22
+80166,2020,Robbery,148
+80167,2020,Sexual Assault With An Object,5
+80168,2020,Shoplifting,76
+80169,2020,Simple Assault,2065
+80170,2020,Sodomy,6
+80171,2020,Statutory Rape,4
+80172,2020,Stolen Property Offenses,11
+80173,2020,Theft From Building,39
+80174,2020,Theft From Coin-Operated Machine or Device,0
+80175,2020,Theft From Motor Vehicle,63
+80176,2020,Theft of Motor Vehicle Parts or Accessories,16
+80177,2020,Weapon Law Violations,82
+80178,2020,Welfare Fraud,4
+80179,2020,Wire Fraud,3

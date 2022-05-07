@@ -1,0 +1,681 @@
+INCIDENT_ID,DATA_YEAR,BIAS_TYPES,SUM_BIAS_RECORDS
+79172,2001,Anti-American Indian/Alaska Native,78
+79173,2001,Anti-Arab,254
+79174,2001,Anti-Asian,280
+79175,2001,Anti-Atheism/Agnosticism,5
+79176,2001,Anti-Bisexual,15
+79177,2001,Anti-Black or African American,2922
+79178,2001,Anti-Buddhist,0
+79179,2001,Anti-Catholic,36
+79180,2001,Anti-Eastern Orthodox,0
+79181,2001,Anti-Female,0
+79182,2001,Anti-Gay (Male),991
+79183,2001,Anti-Gender Non-Conforming,0
+79184,2001,Anti-Heterosexual,16
+79185,2001,Anti-Hindu,0
+79186,2001,Anti-Hispanic or Latino,607
+79187,2001,Anti-Islamic (Muslim),499
+79188,2001,Anti-Jehovah's Witness,0
+79189,2001,Anti-Jewish,1053
+79190,2001,Anti-Lesbian (Female),205
+79191,2001,Anti-Lesbian/Gay/Bisexual/Transgender,178
+79192,2001,Anti-Male,0
+79193,2001,Anti-Mental Disability,23
+79194,2001,Anti-Mormon,0
+79195,2001,"Anti-Multiple Races, Group",219
+79196,2001,"Anti-Multiple Religions, Group",47
+79197,2001,Anti-Native Hawaiian/Pacific Islander,0
+79198,2001,Anti-Other Christian,0
+79199,2001,Anti-Other Race/Ethnicity/Ancestry,1252
+79200,2001,Anti-Other Religion,188
+79201,2001,Anti-Physical Disability,14
+79202,2001,Anti-Protestant,34
+79203,2001,Anti-Sikh,0
+79204,2001,Anti-Transgender,0
+79205,2001,Anti-White,822
+79207,2002,Anti-American Indian/Alaska Native,62
+79208,2002,Anti-Arab,81
+79209,2002,Anti-Asian,219
+79210,2002,Anti-Atheism/Agnosticism,2
+79211,2002,Anti-Bisexual,16
+79212,2002,Anti-Black or African American,2507
+79213,2002,Anti-Buddhist,0
+79214,2002,Anti-Catholic,51
+79215,2002,Anti-Eastern Orthodox,0
+79216,2002,Anti-Female,0
+79217,2002,Anti-Gay (Male),824
+79218,2002,Anti-Gender Non-Conforming,0
+79219,2002,Anti-Heterosexual,10
+79220,2002,Anti-Hindu,0
+79221,2002,Anti-Hispanic or Latino,482
+79222,2002,Anti-Islamic (Muslim),156
+79223,2002,Anti-Jehovah's Witness,0
+79224,2002,Anti-Jewish,938
+79225,2002,Anti-Lesbian (Female),174
+79226,2002,Anti-Lesbian/Gay/Bisexual/Transgender,224
+79227,2002,Anti-Male,0
+79228,2002,Anti-Mental Disability,29
+79229,2002,Anti-Mormon,0
+79230,2002,"Anti-Multiple Races, Group",159
+79231,2002,"Anti-Multiple Religions, Group",25
+79232,2002,Anti-Native Hawaiian/Pacific Islander,0
+79233,2002,Anti-Other Christian,0
+79234,2002,Anti-Other Race/Ethnicity/Ancestry,546
+79235,2002,Anti-Other Religion,200
+79236,2002,Anti-Physical Disability,20
+79237,2002,Anti-Protestant,53
+79238,2002,Anti-Sikh,0
+79239,2002,Anti-Transgender,0
+79240,2002,Anti-White,710
+79242,2003,Anti-American Indian/Alaska Native,71
+79243,2003,Anti-Arab,14
+79244,2003,Anti-Asian,236
+79245,2003,Anti-Atheism/Agnosticism,9
+79246,2003,Anti-Bisexual,8
+79247,2003,Anti-Black or African American,2574
+79248,2003,Anti-Buddhist,0
+79249,2003,Anti-Catholic,75
+79250,2003,Anti-Eastern Orthodox,0
+79251,2003,Anti-Female,0
+79252,2003,Anti-Gay (Male),791
+79253,2003,Anti-Gender Non-Conforming,0
+79254,2003,Anti-Heterosexual,16
+79255,2003,Anti-Hindu,0
+79256,2003,Anti-Hispanic or Latino,432
+79257,2003,Anti-Islamic (Muslim),149
+79258,2003,Anti-Jehovah's Witness,0
+79259,2003,Anti-Jewish,931
+79260,2003,Anti-Lesbian (Female),184
+79261,2003,Anti-Lesbian/Gay/Bisexual/Transgender,251
+79262,2003,Anti-Male,0
+79263,2003,Anti-Mental Disability,10
+79264,2003,Anti-Mormon,0
+79265,2003,"Anti-Multiple Races, Group",161
+79266,2003,"Anti-Multiple Religions, Group",23
+79267,2003,Anti-Native Hawaiian/Pacific Islander,0
+79268,2003,Anti-Other Christian,0
+79269,2003,Anti-Other Race/Ethnicity/Ancestry,589
+79270,2003,Anti-Other Religion,108
+79271,2003,Anti-Physical Disability,36
+79272,2003,Anti-Protestant,48
+79273,2003,Anti-Sikh,0
+79274,2003,Anti-Transgender,0
+79275,2003,Anti-White,833
+79277,2004,Anti-American Indian/Alaska Native,85
+79278,2004,Anti-Arab,0
+79279,2004,Anti-Asian,224
+79280,2004,Anti-Atheism/Agnosticism,6
+79281,2004,Anti-Bisexual,15
+79282,2004,Anti-Black or African American,2765
+79283,2004,Anti-Buddhist,0
+79284,2004,Anti-Catholic,57
+79285,2004,Anti-Eastern Orthodox,0
+79286,2004,Anti-Female,0
+79287,2004,Anti-Gay (Male),738
+79288,2004,Anti-Gender Non-Conforming,0
+79289,2004,Anti-Heterosexual,29
+79290,2004,Anti-Hindu,0
+79291,2004,Anti-Hispanic or Latino,478
+79292,2004,Anti-Islamic (Muslim),158
+79293,2004,Anti-Jehovah's Witness,0
+79294,2004,Anti-Jewish,965
+79295,2004,Anti-Lesbian (Female),165
+79296,2004,Anti-Lesbian/Gay/Bisexual/Transgender,244
+79297,2004,Anti-Male,0
+79298,2004,Anti-Mental Disability,32
+79299,2004,Anti-Mormon,0
+79300,2004,"Anti-Multiple Races, Group",184
+79301,2004,"Anti-Multiple Religions, Group",35
+79302,2004,Anti-Native Hawaiian/Pacific Islander,0
+79303,2004,Anti-Other Christian,0
+79304,2004,Anti-Other Race/Ethnicity/Ancestry,498
+79305,2004,Anti-Other Religion,124
+79306,2004,Anti-Physical Disability,23
+79307,2004,Anti-Protestant,39
+79308,2004,Anti-Sikh,0
+79309,2004,Anti-Transgender,0
+79310,2004,Anti-White,828
+79312,2005,Anti-American Indian/Alaska Native,79
+79313,2005,Anti-Arab,0
+79314,2005,Anti-Asian,208
+79315,2005,Anti-Atheism/Agnosticism,4
+79316,2005,Anti-Bisexual,26
+79317,2005,Anti-Black or African American,2671
+79318,2005,Anti-Buddhist,0
+79319,2005,Anti-Catholic,67
+79320,2005,Anti-Eastern Orthodox,0
+79321,2005,Anti-Female,0
+79322,2005,Anti-Gay (Male),669
+79323,2005,Anti-Gender Non-Conforming,0
+79324,2005,Anti-Heterosexual,21
+79325,2005,Anti-Hindu,0
+79326,2005,Anti-Hispanic or Latino,538
+79327,2005,Anti-Islamic (Muslim),138
+79328,2005,Anti-Jehovah's Witness,0
+79329,2005,Anti-Jewish,936
+79330,2005,Anti-Lesbian (Female),161
+79331,2005,Anti-Lesbian/Gay/Bisexual/Transgender,200
+79332,2005,Anti-Male,0
+79333,2005,Anti-Mental Disability,35
+79334,2005,Anti-Mormon,0
+79335,2005,"Anti-Multiple Races, Group",192
+79336,2005,"Anti-Multiple Religions, Group",40
+79337,2005,Anti-Native Hawaiian/Pacific Islander,0
+79338,2005,Anti-Other Christian,0
+79339,2005,Anti-Other Race/Ethnicity/Ancestry,434
+79340,2005,Anti-Other Religion,100
+79341,2005,Anti-Physical Disability,21
+79342,2005,Anti-Protestant,56
+79343,2005,Anti-Sikh,0
+79344,2005,Anti-Transgender,0
+79345,2005,Anti-White,818
+79347,2006,Anti-American Indian/Alaska Native,61
+79348,2006,Anti-Arab,0
+79349,2006,Anti-Asian,184
+79350,2006,Anti-Atheism/Agnosticism,7
+79351,2006,Anti-Bisexual,20
+79352,2006,Anti-Black or African American,2631
+79353,2006,Anti-Buddhist,0
+79354,2006,Anti-Catholic,75
+79355,2006,Anti-Eastern Orthodox,0
+79356,2006,Anti-Female,0
+79357,2006,Anti-Gay (Male),744
+79358,2006,Anti-Gender Non-Conforming,0
+79359,2006,Anti-Heterosexual,31
+79360,2006,Anti-Hindu,0
+79361,2006,Anti-Hispanic or Latino,589
+79362,2006,Anti-Islamic (Muslim),156
+79363,2006,Anti-Jehovah's Witness,0
+79364,2006,Anti-Jewish,968
+79365,2006,Anti-Lesbian (Female),162
+79366,2006,Anti-Lesbian/Gay/Bisexual/Transgender,241
+79367,2006,Anti-Male,0
+79368,2006,Anti-Mental Disability,65
+79369,2006,Anti-Mormon,0
+79370,2006,"Anti-Multiple Races, Group",233
+79371,2006,"Anti-Multiple Religions, Group",72
+79372,2006,Anti-Native Hawaiian/Pacific Islander,0
+79373,2006,Anti-Other Christian,0
+79374,2006,Anti-Other Race/Ethnicity/Ancestry,417
+79375,2006,Anti-Other Religion,125
+79376,2006,Anti-Physical Disability,18
+79377,2006,Anti-Protestant,60
+79378,2006,Anti-Sikh,0
+79379,2006,Anti-Transgender,0
+79380,2006,Anti-White,858
+79382,2007,Anti-American Indian/Alaska Native,61
+79383,2007,Anti-Arab,0
+79384,2007,Anti-Asian,190
+79385,2007,Anti-Atheism/Agnosticism,7
+79386,2007,Anti-Bisexual,23
+79387,2007,Anti-Black or African American,2675
+79388,2007,Anti-Buddhist,0
+79389,2007,Anti-Catholic,61
+79390,2007,Anti-Eastern Orthodox,0
+79391,2007,Anti-Female,0
+79392,2007,Anti-Gay (Male),777
+79393,2007,Anti-Gender Non-Conforming,0
+79394,2007,Anti-Heterosexual,23
+79395,2007,Anti-Hindu,0
+79396,2007,Anti-Hispanic or Latino,598
+79397,2007,Anti-Islamic (Muslim),115
+79398,2007,Anti-Jehovah's Witness,0
+79399,2007,Anti-Jewish,973
+79400,2007,Anti-Lesbian (Female),145
+79401,2007,Anti-Lesbian/Gay/Bisexual/Transgender,309
+79402,2007,Anti-Male,0
+79403,2007,Anti-Mental Disability,39
+79404,2007,Anti-Mormon,0
+79405,2007,"Anti-Multiple Races, Group",214
+79406,2007,"Anti-Multiple Religions, Group",55
+79407,2007,Anti-Native Hawaiian/Pacific Islander,0
+79408,2007,Anti-Other Christian,0
+79409,2007,Anti-Other Race/Ethnicity/Ancestry,414
+79410,2007,Anti-Other Religion,130
+79411,2007,Anti-Physical Disability,20
+79412,2007,Anti-Protestant,56
+79413,2007,Anti-Sikh,0
+79414,2007,Anti-Transgender,0
+79415,2007,Anti-White,743
+79417,2008,Anti-American Indian/Alaska Native,56
+79418,2008,Anti-Arab,0
+79419,2008,Anti-Asian,143
+79420,2008,Anti-Atheism/Agnosticism,14
+79421,2008,Anti-Bisexual,28
+79422,2008,Anti-Black or African American,2953
+79423,2008,Anti-Buddhist,0
+79424,2008,Anti-Catholic,79
+79425,2008,Anti-Eastern Orthodox,0
+79426,2008,Anti-Female,0
+79427,2008,Anti-Gay (Male),799
+79428,2008,Anti-Gender Non-Conforming,0
+79429,2008,Anti-Heterosexual,33
+79430,2008,Anti-Hindu,0
+79431,2008,Anti-Hispanic or Latino,575
+79432,2008,Anti-Islamic (Muslim),105
+79433,2008,Anti-Jehovah's Witness,0
+79434,2008,Anti-Jewish,1036
+79435,2008,Anti-Lesbian (Female),159
+79436,2008,Anti-Lesbian/Gay/Bisexual/Transgender,319
+79437,2008,Anti-Male,0
+79438,2008,Anti-Mental Disability,66
+79439,2008,Anti-Mormon,0
+79440,2008,"Anti-Multiple Races, Group",221
+79441,2008,"Anti-Multiple Religions, Group",67
+79442,2008,Anti-Native Hawaiian/Pacific Islander,0
+79443,2008,Anti-Other Christian,0
+79444,2008,Anti-Other Race/Ethnicity/Ancestry,351
+79445,2008,Anti-Other Religion,196
+79446,2008,Anti-Physical Disability,27
+79447,2008,Anti-Protestant,55
+79448,2008,Anti-Sikh,0
+79449,2008,Anti-Transgender,0
+79450,2008,Anti-White,760
+79452,2009,Anti-American Indian/Alaska Native,68
+79453,2009,Anti-Arab,0
+79454,2009,Anti-Asian,128
+79455,2009,Anti-Atheism/Agnosticism,10
+79456,2009,Anti-Bisexual,24
+79457,2009,Anti-Black or African American,2300
+79458,2009,Anti-Buddhist,0
+79459,2009,Anti-Catholic,52
+79460,2009,Anti-Eastern Orthodox,0
+79461,2009,Anti-Female,0
+79462,2009,Anti-Gay (Male),688
+79463,2009,Anti-Gender Non-Conforming,0
+79464,2009,Anti-Heterosexual,21
+79465,2009,Anti-Hindu,0
+79466,2009,Anti-Hispanic or Latino,486
+79467,2009,Anti-Islamic (Muslim),107
+79468,2009,Anti-Jehovah's Witness,0
+79469,2009,Anti-Jewish,932
+79470,2009,Anti-Lesbian (Female),186
+79471,2009,Anti-Lesbian/Gay/Bisexual/Transgender,311
+79472,2009,Anti-Male,0
+79473,2009,Anti-Mental Disability,70
+79474,2009,Anti-Mormon,0
+79475,2009,"Anti-Multiple Races, Group",180
+79476,2009,"Anti-Multiple Religions, Group",48
+79477,2009,Anti-Native Hawaiian/Pacific Islander,0
+79478,2009,Anti-Other Christian,0
+79479,2009,Anti-Other Race/Ethnicity/Ancestry,296
+79480,2009,Anti-Other Religion,111
+79481,2009,Anti-Physical Disability,24
+79482,2009,Anti-Protestant,38
+79483,2009,Anti-Sikh,0
+79484,2009,Anti-Transgender,0
+79485,2009,Anti-White,539
+79487,2010,Anti-American Indian/Alaska Native,44
+79488,2010,Anti-Arab,0
+79489,2010,Anti-Asian,152
+79490,2010,Anti-Atheism/Agnosticism,5
+79491,2010,Anti-Bisexual,26
+79492,2010,Anti-Black or African American,2203
+79493,2010,Anti-Buddhist,0
+79494,2010,Anti-Catholic,58
+79495,2010,Anti-Eastern Orthodox,0
+79496,2010,Anti-Female,0
+79497,2010,Anti-Gay (Male),741
+79498,2010,Anti-Gender Non-Conforming,0
+79499,2010,Anti-Heterosexual,21
+79500,2010,Anti-Hindu,0
+79501,2010,Anti-Hispanic or Latino,534
+79502,2010,Anti-Islamic (Muslim),160
+79503,2010,Anti-Jehovah's Witness,0
+79504,2010,Anti-Jewish,887
+79505,2010,Anti-Lesbian (Female),145
+79506,2010,Anti-Lesbian/Gay/Bisexual/Transgender,347
+79507,2010,Anti-Male,0
+79508,2010,Anti-Mental Disability,25
+79509,2010,Anti-Mormon,0
+79510,2010,"Anti-Multiple Races, Group",167
+79511,2010,"Anti-Multiple Religions, Group",48
+79512,2010,Anti-Native Hawaiian/Pacific Islander,0
+79513,2010,Anti-Other Christian,0
+79514,2010,Anti-Other Race/Ethnicity/Ancestry,314
+79515,2010,Anti-Other Religion,124
+79516,2010,Anti-Physical Disability,19
+79517,2010,Anti-Protestant,41
+79518,2010,Anti-Sikh,0
+79519,2010,Anti-Transgender,0
+79520,2010,Anti-White,576
+79522,2011,Anti-American Indian/Alaska Native,64
+79523,2011,Anti-Arab,0
+79524,2011,Anti-Asian,137
+79525,2011,Anti-Atheism/Agnosticism,4
+79526,2011,Anti-Bisexual,25
+79527,2011,Anti-Black or African American,2102
+79528,2011,Anti-Buddhist,0
+79529,2011,Anti-Catholic,73
+79530,2011,Anti-Eastern Orthodox,0
+79531,2011,Anti-Female,0
+79532,2011,Anti-Gay (Male),766
+79533,2011,Anti-Gender Non-Conforming,0
+79534,2011,Anti-Heterosexual,18
+79535,2011,Anti-Hindu,0
+79536,2011,Anti-Hispanic or Latino,405
+79537,2011,Anti-Islamic (Muslim),163
+79538,2011,Anti-Jehovah's Witness,0
+79539,2011,Anti-Jewish,770
+79540,2011,Anti-Lesbian (Female),138
+79541,2011,Anti-Lesbian/Gay/Bisexual/Transgender,366
+79542,2011,Anti-Male,0
+79543,2011,Anti-Mental Disability,42
+79544,2011,Anti-Mormon,0
+79545,2011,"Anti-Multiple Races, Group",136
+79546,2011,"Anti-Multiple Religions, Group",53
+79547,2011,Anti-Native Hawaiian/Pacific Islander,0
+79548,2011,Anti-Other Christian,0
+79549,2011,Anti-Other Race/Ethnicity/Ancestry,320
+79550,2011,Anti-Other Religion,131
+79551,2011,Anti-Physical Disability,22
+79552,2011,Anti-Protestant,45
+79553,2011,Anti-Sikh,0
+79554,2011,Anti-Transgender,0
+79555,2011,Anti-White,528
+79557,2012,Anti-American Indian/Alaska Native,105
+79558,2012,Anti-Arab,0
+79559,2012,Anti-Asian,144
+79560,2012,Anti-Atheism/Agnosticism,13
+79561,2012,Anti-Bisexual,38
+79562,2012,Anti-Black or African American,2061
+79563,2012,Anti-Buddhist,0
+79564,2012,Anti-Catholic,75
+79565,2012,Anti-Eastern Orthodox,0
+79566,2012,Anti-Female,2
+79567,2012,Anti-Gay (Male),728
+79568,2012,Anti-Gender Non-Conforming,4
+79569,2012,Anti-Heterosexual,26
+79570,2012,Anti-Hindu,0
+79571,2012,Anti-Hispanic or Latino,429
+79572,2012,Anti-Islamic (Muslim),149
+79573,2012,Anti-Jehovah's Witness,0
+79574,2012,Anti-Jewish,869
+79575,2012,Anti-Lesbian (Female),171
+79576,2012,Anti-Lesbian/Gay/Bisexual/Transgender,340
+79577,2012,Anti-Male,0
+79578,2012,Anti-Mental Disability,89
+79579,2012,Anti-Mormon,0
+79580,2012,"Anti-Multiple Races, Group",123
+79581,2012,"Anti-Multiple Religions, Group",76
+79582,2012,Anti-Native Hawaiian/Pacific Islander,0
+79583,2012,Anti-Other Christian,0
+79584,2012,Anti-Other Race/Ethnicity/Ancestry,312
+79585,2012,Anti-Other Religion,102
+79586,2012,Anti-Physical Disability,21
+79587,2012,Anti-Protestant,38
+79588,2012,Anti-Sikh,0
+79589,2012,Anti-Transgender,0
+79590,2012,Anti-White,686
+79592,2013,Anti-American Indian/Alaska Native,93
+79593,2013,Anti-Arab,0
+79594,2013,Anti-Asian,134
+79595,2013,Anti-Atheism/Agnosticism,7
+79596,2013,Anti-Bisexual,27
+79597,2013,Anti-Black or African American,1911
+79598,2013,Anti-Buddhist,0
+79599,2013,Anti-Catholic,70
+79600,2013,Anti-Eastern Orthodox,0
+79601,2013,Anti-Female,13
+79602,2013,Anti-Gay (Male),763
+79603,2013,Anti-Gender Non-Conforming,8
+79604,2013,Anti-Heterosexual,21
+79605,2013,Anti-Hindu,0
+79606,2013,Anti-Hispanic or Latino,341
+79607,2013,Anti-Islamic (Muslim),140
+79608,2013,Anti-Jehovah's Witness,0
+79609,2013,Anti-Jewish,630
+79610,2013,Anti-Lesbian (Female),166
+79611,2013,Anti-Lesbian/Gay/Bisexual/Transgender,293
+79612,2013,Anti-Male,7
+79613,2013,Anti-Mental Disability,70
+79614,2013,Anti-Mormon,0
+79615,2013,"Anti-Multiple Races, Group",96
+79616,2013,"Anti-Multiple Religions, Group",43
+79617,2013,Anti-Native Hawaiian/Pacific Islander,3
+79618,2013,Anti-Other Christian,0
+79619,2013,Anti-Other Race/Ethnicity/Ancestry,337
+79620,2013,Anti-Other Religion,122
+79621,2013,Anti-Physical Disability,24
+79622,2013,Anti-Protestant,38
+79623,2013,Anti-Sikh,0
+79624,2013,Anti-Transgender,23
+79625,2013,Anti-White,670
+79627,2014,Anti-American Indian/Alaska Native,138
+79628,2014,Anti-Arab,7
+79629,2014,Anti-Asian,139
+79630,2014,Anti-Atheism/Agnosticism,10
+79631,2014,Anti-Bisexual,34
+79632,2014,Anti-Black or African American,1658
+79633,2014,Anti-Buddhist,0
+79634,2014,Anti-Catholic,70
+79635,2014,Anti-Eastern Orthodox,0
+79636,2014,Anti-Female,24
+79637,2014,Anti-Gay (Male),614
+79638,2014,Anti-Gender Non-Conforming,41
+79639,2014,Anti-Heterosexual,19
+79640,2014,Anti-Hindu,0
+79641,2014,Anti-Hispanic or Latino,307
+79642,2014,Anti-Islamic (Muslim),156
+79643,2014,Anti-Jehovah's Witness,0
+79644,2014,Anti-Jewish,616
+79645,2014,Anti-Lesbian (Female),132
+79646,2014,Anti-Lesbian/Gay/Bisexual/Transgender,249
+79647,2014,Anti-Male,10
+79648,2014,Anti-Mental Disability,70
+79649,2014,Anti-Mormon,0
+79650,2014,"Anti-Multiple Races, Group",86
+79651,2014,"Anti-Multiple Religions, Group",48
+79652,2014,Anti-Native Hawaiian/Pacific Islander,3
+79653,2014,Anti-Other Christian,0
+79654,2014,Anti-Other Race/Ethnicity/Ancestry,347
+79655,2014,Anti-Other Religion,110
+79656,2014,Anti-Physical Disability,27
+79657,2014,Anti-Protestant,28
+79658,2014,Anti-Sikh,0
+79659,2014,Anti-Transgender,60
+79660,2014,Anti-White,614
+79662,2015,Anti-American Indian/Alaska Native,131
+79663,2015,Anti-Arab,40
+79664,2015,Anti-Asian,115
+79665,2015,Anti-Atheism/Agnosticism,3
+79666,2015,Anti-Bisexual,31
+79667,2015,Anti-Black or African American,1762
+79668,2015,Anti-Buddhist,1
+79669,2015,Anti-Catholic,54
+79670,2015,Anti-Eastern Orthodox,49
+79671,2015,Anti-Female,17
+79672,2015,Anti-Gay (Male),675
+79673,2015,Anti-Gender Non-Conforming,41
+79674,2015,Anti-Heterosexual,19
+79675,2015,Anti-Hindu,5
+79676,2015,Anti-Hispanic or Latino,302
+79677,2015,Anti-Islamic (Muslim),260
+79678,2015,Anti-Jehovah's Witness,1
+79679,2015,Anti-Jewish,670
+79680,2015,Anti-Lesbian (Female),138
+79681,2015,Anti-Lesbian/Gay/Bisexual/Transgender,205
+79682,2015,Anti-Male,7
+79683,2015,Anti-Mental Disability,31
+79684,2015,Anti-Mormon,8
+79685,2015,"Anti-Multiple Races, Group",113
+79686,2015,"Anti-Multiple Religions, Group",51
+79687,2015,Anti-Native Hawaiian/Pacific Islander,4
+79688,2015,Anti-Other Christian,15
+79689,2015,Anti-Other Race/Ethnicity/Ancestry,259
+79690,2015,Anti-Other Religion,96
+79691,2015,Anti-Physical Disability,46
+79692,2015,Anti-Protestant,37
+79693,2015,Anti-Sikh,6
+79694,2015,Anti-Transgender,73
+79695,2015,Anti-White,615
+79697,2016,Anti-American Indian/Alaska Native,158
+79698,2016,Anti-Arab,58
+79699,2016,Anti-Asian,115
+79700,2016,Anti-Atheism/Agnosticism,5
+79701,2016,Anti-Bisexual,24
+79702,2016,Anti-Black or African American,1795
+79703,2016,Anti-Buddhist,2
+79704,2016,Anti-Catholic,62
+79705,2016,Anti-Eastern Orthodox,32
+79706,2016,Anti-Female,23
+79707,2016,Anti-Gay (Male),703
+79708,2016,Anti-Gender Non-Conforming,20
+79709,2016,Anti-Heterosexual,20
+79710,2016,Anti-Hindu,11
+79711,2016,Anti-Hispanic or Latino,357
+79712,2016,Anti-Islamic (Muslim),315
+79713,2016,Anti-Jehovah's Witness,2
+79714,2016,Anti-Jewish,707
+79715,2016,Anti-Lesbian (Female),137
+79716,2016,Anti-Lesbian/Gay/Bisexual/Transgender,254
+79717,2016,Anti-Male,7
+79718,2016,Anti-Mental Disability,59
+79719,2016,Anti-Mormon,7
+79720,2016,"Anti-Multiple Races, Group",146
+79721,2016,"Anti-Multiple Religions, Group",34
+79722,2016,Anti-Native Hawaiian/Pacific Islander,9
+79723,2016,Anti-Other Christian,37
+79724,2016,Anti-Other Race/Ethnicity/Ancestry,230
+79725,2016,Anti-Other Religion,82
+79726,2016,Anti-Physical Disability,43
+79727,2016,Anti-Protestant,16
+79728,2016,Anti-Sikh,10
+79729,2016,Anti-Transgender,107
+79730,2016,Anti-White,755
+79732,2017,Anti-American Indian/Alaska Native,243
+79733,2017,Anti-Arab,106
+79734,2017,Anti-Asian,132
+79735,2017,Anti-Atheism/Agnosticism,6
+79736,2017,Anti-Bisexual,24
+79737,2017,Anti-Black or African American,2102
+79738,2017,Anti-Buddhist,15
+79739,2017,Anti-Catholic,72
+79740,2017,Anti-Eastern Orthodox,19
+79741,2017,Anti-Female,55
+79742,2017,Anti-Gay (Male),692
+79743,2017,Anti-Gender Non-Conforming,14
+79744,2017,Anti-Heterosexual,32
+79745,2017,Anti-Hindu,10
+79746,2017,Anti-Hispanic or Latino,446
+79747,2017,Anti-Islamic (Muslim),283
+79748,2017,Anti-Jehovah's Witness,7
+79749,2017,Anti-Jewish,983
+79750,2017,Anti-Lesbian (Female),132
+79751,2017,Anti-Lesbian/Gay/Bisexual/Transgender,286
+79752,2017,Anti-Male,25
+79753,2017,Anti-Mental Disability,89
+79754,2017,Anti-Mormon,11
+79755,2017,"Anti-Multiple Races, Group",203
+79756,2017,"Anti-Multiple Religions, Group",52
+79757,2017,Anti-Native Hawaiian/Pacific Islander,15
+79758,2017,Anti-Other Christian,25
+79759,2017,Anti-Other Race/Ethnicity/Ancestry,283
+79760,2017,Anti-Other Religion,84
+79761,2017,Anti-Physical Disability,67
+79762,2017,Anti-Protestant,42
+79763,2017,Anti-Sikh,18
+79764,2017,Anti-Transgender,117
+79765,2017,Anti-White,721
+79767,2018,Anti-American Indian/Alaska Native,186
+79768,2018,Anti-Arab,83
+79769,2018,Anti-Asian,151
+79770,2018,Anti-Atheism/Agnosticism,4
+79771,2018,Anti-Bisexual,20
+79772,2018,Anti-Black or African American,1994
+79773,2018,Anti-Buddhist,9
+79774,2018,Anti-Catholic,51
+79775,2018,Anti-Eastern Orthodox,32
+79776,2018,Anti-Female,41
+79777,2018,Anti-Gay (Male),754
+79778,2018,Anti-Gender Non-Conforming,26
+79779,2018,Anti-Heterosexual,20
+79780,2018,Anti-Hindu,13
+79781,2018,Anti-Hispanic or Latino,501
+79782,2018,Anti-Islamic (Muslim),197
+79783,2018,Anti-Jehovah's Witness,10
+79784,2018,Anti-Jewish,877
+79785,2018,Anti-Lesbian (Female),133
+79786,2018,Anti-Lesbian/Gay/Bisexual/Transgender,312
+79787,2018,Anti-Male,26
+79788,2018,Anti-Mental Disability,101
+79789,2018,Anti-Mormon,8
+79790,2018,"Anti-Multiple Races, Group",144
+79791,2018,"Anti-Multiple Religions, Group",53
+79792,2018,Anti-Native Hawaiian/Pacific Islander,14
+79793,2018,Anti-Other Christian,50
+79794,2018,Anti-Other Race/Ethnicity/Ancestry,273
+79795,2018,Anti-Other Religion,94
+79796,2018,Anti-Physical Disability,62
+79797,2018,Anti-Protestant,35
+79798,2018,Anti-Sikh,40
+79799,2018,Anti-Transgender,144
+79800,2018,Anti-White,801
+79802,2019,Anti-American Indian/Alaska Native,102
+79803,2019,Anti-Arab,119
+79804,2019,Anti-Asian,199
+79805,2019,Anti-Atheism/Agnosticism,7
+79806,2019,Anti-Bisexual,30
+79807,2019,Anti-Black or African American,2299
+79808,2019,Anti-Buddhist,6
+79809,2019,Anti-Catholic,74
+79810,2019,Anti-Eastern Orthodox,53
+79811,2019,Anti-Female,70
+79812,2019,Anti-Gay (Male),826
+79813,2019,Anti-Gender Non-Conforming,50
+79814,2019,Anti-Heterosexual,20
+79815,2019,Anti-Hindu,8
+79816,2019,Anti-Hispanic or Latino,588
+79817,2019,Anti-Islamic (Muslim),217
+79818,2019,Anti-Jehovah's Witness,7
+79819,2019,Anti-Jewish,1171
+79820,2019,Anti-Lesbian (Female),132
+79821,2019,Anti-Lesbian/Gay/Bisexual/Transgender,337
+79822,2019,Anti-Male,20
+79823,2019,Anti-Mental Disability,105
+79824,2019,Anti-Mormon,12
+79825,2019,"Anti-Multiple Races, Group",167
+79826,2019,"Anti-Multiple Religions, Group",48
+79827,2019,Anti-Native Hawaiian/Pacific Islander,24
+79828,2019,Anti-Other Christian,61
+79829,2019,Anti-Other Race/Ethnicity/Ancestry,362
+79830,2019,Anti-Other Religion,92
+79831,2019,Anti-Physical Disability,51
+79832,2019,Anti-Protestant,24
+79833,2019,Anti-Sikh,68
+79834,2019,Anti-Transgender,170
+79835,2019,Anti-White,707
+79837,2020,Anti-American Indian/Alaska Native,132
+79838,2020,Anti-Arab,105
+79839,2020,Anti-Asian,346
+79840,2020,Anti-Atheism/Agnosticism,11
+79841,2020,Anti-Bisexual,24
+79842,2020,Anti-Black or African American,3712
+79843,2020,Anti-Buddhist,23
+79844,2020,Anti-Catholic,86
+79845,2020,Anti-Eastern Orthodox,79
+79846,2020,Anti-Female,77
+79847,2020,Anti-Gay (Male),838
+79848,2020,Anti-Gender Non-Conforming,76
+79849,2020,Anti-Heterosexual,20
+79850,2020,Anti-Hindu,16
+79851,2020,Anti-Hispanic or Latino,670
+79852,2020,Anti-Islamic (Muslim),159
+79853,2020,Anti-Jehovah's Witness,11
+79854,2020,Anti-Jewish,976
+79855,2020,Anti-Lesbian (Female),142
+79856,2020,Anti-Lesbian/Gay/Bisexual/Transgender,369
+79857,2020,Anti-Male,37
+79858,2020,Anti-Mental Disability,111
+79859,2020,Anti-Mormon,10
+79860,2020,"Anti-Multiple Races, Group",295
+79861,2020,"Anti-Multiple Religions, Group",75
+79862,2020,Anti-Native Hawaiian/Pacific Islander,32
+79863,2020,Anti-Other Christian,62
+79864,2020,Anti-Other Race/Ethnicity/Ancestry,392
+79865,2020,Anti-Other Religion,102
+79866,2020,Anti-Physical Disability,78
+79867,2020,Anti-Protestant,43
+79868,2020,Anti-Sikh,174
+79869,2020,Anti-Transgender,245
+79870,2020,Anti-White,1217
