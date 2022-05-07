@@ -1,7 +1,7 @@
   /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth * .9,
     height = window.innerHeight * .8,
-    margin = {top: 20, bottom: 30, left:50, right:20};
+    margin = {top: 30, bottom: 40, left:70, right:20};
 
 
   // these variables allow us to access anything we manipulate in init() but need access to in draw().
@@ -19,7 +19,6 @@
   };
 
   /* LOAD DATA */
-  // + SET YOUR DATA PATH
   d3.csv('./data/hateCrime_stateLine.csv', d => {
     return {
       DATA_YEAR: new Date(+d.DATA_YEAR, 0, 1),
@@ -88,6 +87,12 @@
             .attr("class","xAxis")
             .attr("transform", `translate(${0},${height-margin.bottom})`)
             .call(xAxis)
+            .append("text")
+              .attr("y", margin.bottom-10)
+              .attr("x", width/2)
+              .attr("fill", "navy")
+              .attr("text-anchor", "end")
+              .text("<Year>");  
 
     yAxisGroup = svg.append("g")
             .attr("class","yAxis")
@@ -124,7 +129,7 @@
                   .y1(d => yScale(d.SUM_VICTIM_COUNT))
                   .y0(height-margin.bottom)
 
-    // + DRAW LINE AND/OR AREA
+    // + DRAW LINE AND AREA
     svg.selectAll(".line")
       .data([filteredData]) // needs [] for line 
       .join("path")
@@ -133,7 +138,6 @@
           .attr("fill","none")
           .attr("d", d=>lineGen(d))
 
-    // NEW code block
     /* this will add dots based on data */
     svg.selectAll(".circle-point")
     .data(filteredData)
@@ -151,8 +155,8 @@
             })
         .on("mousemove", function(event){
             return tooltip
-              .style("top", (event.pageY-5)+"px")
-              .style("left",(event.pageX+5)+"px");
+              .style("top", (event.pageY-55)+"px")
+              .style("left",(event.pageX+15)+"px");
             })
         .on("mouseout", function(){
             return tooltip

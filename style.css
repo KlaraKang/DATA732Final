@@ -62,12 +62,12 @@ iframe {
 }
 
 .xAxis text {
-  font-size: 10px;
+  font-size: 12px;
   color:rgb(86, 86, 102)
 }
   
 .yAxis text {
-  font-size: 10px;
+  font-size: 12px;
   color:rgb(67, 67, 104)
 }
 
@@ -77,12 +77,12 @@ iframe {
 }
 
 .xAxis1 text {
-  font-size: 10px;
+  font-size: 12px;
   color:rgb(177, 213, 230)
 }
 
 .yAxis1 text {
-  font-size: 10px;
+  font-size: 12px;
   color:rgb(177, 213, 230)
 }
 .data-labels2{
@@ -91,12 +91,12 @@ iframe {
 }
   
 .xAxis2 text {
-  font-size: 10px;
+  font-size: 12px;
   color:rgb(177, 213, 230)
 }
   
 .yAxis2 text {
-  font-size: 10px;
+  font-size: 12px;
   color:rgb(177, 213, 230)
 }
   

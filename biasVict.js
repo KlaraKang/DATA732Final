@@ -1,7 +1,7 @@
   /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth*.95,
   height = window.innerHeight*.9,
-  margin = {top:20, bottom:50, left:200, right:70};
+  margin = {top:20, bottom:10, left:200, right:70};
 
   // // since we use our scales in multiple functions, they need global scope
   // let xScale, yScale;

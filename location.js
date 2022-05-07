@@ -17,7 +17,7 @@
   /**
   * LOAD DATA
   * */
-  d3.json("./data/HateCrimeByLoc.json", d3.autotype).then(data => {
+  d3.json("./data/hateCrimeByLoc.json", d3.autotype).then(data => {
     state.data = data;
     console.log(state.data)
     init();
@@ -44,7 +44,7 @@
             .style("position", "absolute")
 
     const root = d3.hierarchy(state.data) // it applies hierarchal info into each record of the data 
-          .sum(d => d.SUM_VICTIM_COUNT)  // totality of the whole square of the SVG  
+          .sum(d => d.SUM_LOCATION_RECORDS)  // totality of the whole square of the SVG  
           // sorts by traversal order by default. the data is already sorted by descending order.  
           
     console.log(root)
@@ -75,26 +75,16 @@
 
     leafGroup.append("rect")
             .attr("class","rect")
-            .attr("fill", d=>colorScale(d.data.SUM_VICTIM_COUNT))
+            .attr("fill", d=>colorScale(d.data.SUM_LOCATION_RECORDS))
             .attr("stroke","gray")
             .attr("width", d => d.x1 - d.x0) // width for each rectangle
             .attr("height", d => d.y1 - d.y0) // height for each rectangle
-    
-    leafGroup.append("text")
-            .attr("class","text")
-            .attr("transform", 
-            d=> `translate(${(d.x1 - d.x0)-30},${(d.y1 - d.y0)-15})`)
-              .text(d=>d.data.DESCRIPTION)
-              .attr("font-size","12px")
-              .attr("fill","green")
-              .attr("text-anchor","middle")
-              .style("background","white") 
   
     leafGroup.on("mouseenter", (event, d) => {
                 state.hover = {
                     position: [d.x0, d.y0],
-                    DESCRIPTION: d.data.DESCRIPTION,
-                    SUM_VICTIM_COUNT: d.data.SUM_VICTIM_COUNT
+                    LOCATION_NAME: d.data.LOCATION_NAME,
+                    SUM_LOCATION_RECORDS: d.data.SUM_LOCATION_RECORDS
                 }
               draw();  
               })
@@ -113,8 +103,8 @@
   function draw() {
     if(state.hover){
       tooltip
-      .html(`<div>${state.hover.DESCRIPTION} <br> 
-              ${state.hover.SUM_VICTIM_COUNT} victims</div>`)
+      .html(`<div>${state.hover.LOCATION_NAME} <br> 
+              ${state.hover.SUM_LOCATION_RECORDS} victims</div>`)
       .transition()
       .duration(70)
       .style("opacity", 0.8)

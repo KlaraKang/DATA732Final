@@ -1,7 +1,7 @@
 /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth*.9,
         height = window.innerHeight*.8,
-        margin = {top: 10, bottom: 30, left:40, right:10},
+        margin = {top: 20, bottom: 40, left:40, right:10},
         radius = 2.5;
 
   // global empty variables
@@ -19,17 +19,17 @@
 
   /* LOAD DATA */
   // + SET YOUR DATA PATH
-  d3.csv("./data/20YrsUSHateCrime.csv", d=>{
+  d3.csv("./data/hateCrime_offenseType.csv", d3.autoType)/* d=>{
     return{
-      DATA_YEAR: +d.DATA_YEAR,
-      SUM_VICTIM_COUNT: +d.SUM_VICTIM_COUNT,
+      DATA_YEAR: d.DATA_YEAR,
+      SUM_VICTIM_COUNT: +d.SUM_OFFENSE_RECORDS,
       OFFENSE_TYPES: d.OFFENSE_TYPES,
       INCIDENT_ID: d.INCIDENT_ID
     }
-  }).then(raw_data => {
+  } )*/.then(raw_data => {
 
     // group and sum the data
-    var sum_victim = d3.rollup(raw_data, v=>d3.sum(v, g=>g.SUM_VICTIM_COUNT),
+    var sum_victim = d3.rollup(raw_data, v=>d3.sum(v, g=>g.SUM_OFFENSE_RECORDS),
                               d => d.OFFENSE_TYPES, d=>d.DATA_YEAR)  // Reduced, but it's an InternMap
     
     // reorganizing to a flat array
@@ -40,11 +40,10 @@
               : Object.assign({}, { ...p, [keys[0]]: key, [label] : value })
               ).flat();
             } 
-    sums = unroll(sum_victim, ["OFFENSE_TYPES", "DATA_YEAR"], "SUM_VICTIM_COUNT")
+    sums = unroll(sum_victim, ["OFFENSE_TYPES", "DATA_YEAR"], "SUM_OFFENSE_RECORDS")
   
     // save the summed data to application state
     state.data = sums;
-   // console.log(sums) // Year as number
 
     state.data.forEach((d,i) => {d.id = i+1;});
     console.log("state", state.data)
@@ -60,13 +59,11 @@
               .range([margin.left, width-margin.right])
     
     yScale = d3.scaleLinear()
-              .domain(d3.extent(state.data, d=>d.SUM_VICTIM_COUNT))
+              .domain(d3.extent(state.data, d=>d.SUM_OFFENSE_RECORDS))
               .range([height-margin.bottom, margin.top])
 
     colorScale = d3.scaleOrdinal()
                 .range(d3.schemeSet1)
-              /*  .range(["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3",
-                "#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"])   */
 
     // + AXES
     const xAxis = d3.axisBottom(xScale).ticks(20)
@@ -104,22 +101,34 @@
           .style("position", "absolute")
           .style("visibility", "hidden")
           .style("opacity", 0.8)
-          .style("padding", "8px")
-          .attr("font-size", "9px")
+          .style("padding", "5px")
+          .attr("font-size", "8px")
           .text("tooltip");
 
     // + CALL AXES to draw Axis lines
     const xAxisGroup = svg.append("g")
         .attr("class","xAxis")
         .attr("transform", `translate(${0},${height-margin.bottom})`)
-      //  .attr("class", "axisLine")
         .call(xAxis)
+        .append("text")
+            .attr("y", margin.bottom)
+            .attr("x", width/2)
+            .attr("fill", "navy")
+            .attr("font-size","14px")
+            .attr("text-anchor", "middle")
+            .text("<Year>"); 
     
     const yAxisGroup = svg.append("g")
         .attr("class","yAxis")
         .attr("transform", `translate(${margin.left},${0})`)
-      // .attr("class", "axisLine")
         .call(yAxis)
+        .append("text")
+            .attr("y", margin.top-5)
+            .attr("x", margin.left-20)
+            .attr("fill", "navy")
+            .attr("font-size","14px")
+            .attr("text-anchor", "middle")
+            .text("<Incident Volume>"); 
 
     draw(); // calls the draw function
   }
@@ -144,20 +153,20 @@
         .attr("class","dot")      
         .attr("r", radius)
         .attr("cx", 0)
-        .attr("cy", d => yScale(d.SUM_VICTIM_COUNT))
+        .attr("cy", d => yScale(d.SUM_OFFENSE_RECORDS))
         .attr("fill", "black")
           .on("mouseover", function(event, d, i){
             tooltip
               .html(`<div>Year: ${d.DATA_YEAR}</div>
                     <div>${d.OFFENSE_TYPES}</div>
-                    <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
+                    <div>${d.SUM_OFFENSE_RECORDS} Victims</div>`)
               .style("visibility", "visible")
               .style("background","yellow")
           })
           .on("mousemove", function(event){
             tooltip
-              .style("top", event.pageY - 5 + "px")
-              .style("left", event.pageX + 5 + "px")
+              .style("top", event.pageY - 55 + "px")
+              .style("left", event.pageX + 0 + "px")
           })
           .on("mouseout", function(event, d) {
             tooltip
