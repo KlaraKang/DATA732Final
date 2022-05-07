@@ -17,7 +17,7 @@ The dataset includes the number of incidents, offenses, victims, and location ty
 
 For this data visualization project, I only included the records reported between 2001 and 2020, with a total of 145,847 hate crime incidents against 180,925 victims.
 
-Each incident can be reported with up to five bias motivations. The proportion of the incident records with multiple biases are 4.5% of the total incident counts (6,494/145,847) and 4.7% of the total victim counts (8,570/180,925). To ensure every incident types are included in the visualization, I have generated new datasets that splits multiple types of biases, offenses, and locations into multiple rows.
+Each incident can be reported with up to five bias motivations. To ensure every incident types are included in the visualization, I have generated new datasets that splits multiple types of biases, offenses, and locations into multiple rows.
 
 This dataset doesn’t include geographic location information, Latitude and Longitude. To visualize the U.S. state data in a map, I downloaded the geographical information from a Google developer’s site <https://developers.google.com/public-data/docs/canonical/states_csv> and plugged them into each row of the crime dataset.  
 

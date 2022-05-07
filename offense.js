@@ -1,7 +1,7 @@
 /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth*.9,
         height = window.innerHeight*.8,
-        margin = {top: 20, bottom: 40, left:40, right:10},
+        margin = {top: 20, bottom: 40, left:40, right:30},
         radius = 2.5;
 
   // global empty variables
@@ -19,14 +19,13 @@
 
   /* LOAD DATA */
   // + SET YOUR DATA PATH
-  d3.csv("./data/hateCrime_offenseType.csv", d3.autoType)/* d=>{
-    return{
-      DATA_YEAR: d.DATA_YEAR,
-      SUM_VICTIM_COUNT: +d.SUM_OFFENSE_RECORDS,
+  d3.csv("./data/hateCrime_offenseType.csv", d => {
+    return {
+      DATA_YEAR: new Date(+d.DATA_YEAR, 0, 1),
       OFFENSE_TYPES: d.OFFENSE_TYPES,
-      INCIDENT_ID: d.INCIDENT_ID
+      SUM_OFFENSE_RECORDS: +d.SUM_OFFENSE_RECORDS
     }
-  } )*/.then(raw_data => {
+  }).then(raw_data => {
 
     // group and sum the data
     var sum_victim = d3.rollup(raw_data, v=>d3.sum(v, g=>g.SUM_OFFENSE_RECORDS),
@@ -54,7 +53,7 @@
   // this will be run *one time* when the data finishes loading in
   function init() {
     // + SCALES
-    xScale = d3.scaleLinear()
+    xScale = d3.scaleTime()
               .domain(d3.extent(state.data, d =>d.DATA_YEAR)) //extent gets min and max at the same time.
               .range([margin.left, width-margin.right])
     
@@ -63,7 +62,13 @@
               .range([height-margin.bottom, margin.top])
 
     colorScale = d3.scaleOrdinal()
-                .range(d3.schemeSet1)
+                .range(["#FF00FF","#c83349","#588c7e","#ff0000","#FFA500","#674d3c",
+                "#c1502e","#9400D3","#FF0000","#d64161","#70007a","#FF4500","#6b5b95",
+                "#87bdd8","#e06377","#ff6f69","#ffcc5c","#7e4a35","#484f4f","#e4d1d1",
+                "#b0aac0","#d9ecd0","#3b3a30","#4040a1","#bc5a45","#618685","#ffef96",
+                "#80ced6","#50394c","#d5f4e","#f18973","#c94c4c","#034f84","#eea29a",
+                "#82b74b","#eca1a6","#405d27","#c1946a","#b9936c","#eca1a6","#e0876a",
+                "#e3eaa7","#ff7b25","#ada397","#6b5b95","#feb236","#b2ad7f","#5b9aa0",])
 
     // + AXES
     const xAxis = d3.axisBottom(xScale).ticks(20)
@@ -97,13 +102,7 @@
     tooltip = container
           .append("div")
           .attr("class", "tooltip")
-          .style("z-index", "5")
-          .style("position", "absolute")
           .style("visibility", "hidden")
-          .style("opacity", 0.8)
-          .style("padding", "5px")
-          .attr("font-size", "8px")
-          .text("tooltip");
 
     // + CALL AXES to draw Axis lines
     const xAxisGroup = svg.append("g")
@@ -157,11 +156,9 @@
         .attr("fill", "black")
           .on("mouseover", function(event, d, i){
             tooltip
-              .html(`<div>Year: ${d.DATA_YEAR}</div>
-                    <div>${d.OFFENSE_TYPES}</div>
-                    <div>${d.SUM_OFFENSE_RECORDS} Victims</div>`)
+              .html(`<div>${d.OFFENSE_TYPES}</div>
+                    <div>${d.SUM_OFFENSE_RECORDS} counts</div>`)
               .style("visibility", "visible")
-              .style("background","yellow")
           })
           .on("mousemove", function(event){
             tooltip

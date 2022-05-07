@@ -15,7 +15,7 @@
       biasData: [], 
       victData: [],
       hover: null,
-      selectYear: "Select Year" //default selection
+      selectYear: 2020// "Select Year" //default selection
   };
 
   /* LOAD DATA */
@@ -109,13 +109,7 @@ Promise.all([
     tooltip = container
           .append("div")
           .attr("class", "tooltip")
-          .style("z-index", "9")
-          .style("position", "absolute")
           .style("visibility", "hidden")
-          .style("opacity", 0.8)
-          .style("padding", "8px")
-          .attr("font-size", "9px")
-          .text("tooltip");
 
     // + CALL AXES to draw Axis lines
     yAxisGroup1 = svg1.append("g")
@@ -193,9 +187,8 @@ Promise.all([
             .on("mouseover", function(event, d, i){
                 tooltip
                   .html(`<div>Bias: ${d.BIAS_TYPES}</div>
-                        <div>${d.SUM_BIAS_RECORDS} Victims</div>`)
+                        <div>${d.SUM_BIAS_RECORDS} counts</div>`)
                   .style("visibility", "visible")
-                  .style("background","lightblue")
               })
             .on("mousemove", function(event){
                 tooltip
@@ -262,9 +255,8 @@ Promise.all([
             .on("mouseover", function(event, d, i){
                 tooltip
                   .html(`<div>Victim Type: ${d.VICTIM_TYPES}</div>
-                        <div>${d.SUM_VICTIM_TYPE_RECORDS} Victims</div>`)
+                        <div>${d.SUM_VICTIM_TYPE_RECORDS} counts</div>`)
                   .style("visibility", "visible")
-                  .style("background","lightblue")
             })
             .on("mousemove", function(event){
                 tooltip

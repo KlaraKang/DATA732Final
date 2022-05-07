@@ -5,7 +5,7 @@ margin = { top: 20, bottom: 20, left: 20, right: 20 },
 radius = 3;     
 
 let xScale, yScale, colorScale;
-let year_menu, state_name;
+let year_menu;
 let svg;
 let geojson, projection;
     
@@ -84,14 +84,7 @@ Promise.all([
     tooltip = d3.select("body")
                 .append("div")
                 .attr("class", "tooltip")
-                .style("z-index", "10")
-                .style("position", "absolute")
                 .style("visibility", "hidden")
-                .style("opacity", 0.8)
-                .style("padding", "8px")
-                .attr("font-size", "10px")
-                .attr("font-color", "red")
-                .text("tooltip");
 
     // VERTICAL LEGEND
     g = svg.append("g"); 
@@ -184,7 +177,6 @@ function draw() {
                     .html(`<div>${d.STATE_NAME}:</div>
                             <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
                     .style("visibility", "visible")
-                    .style("background","lightblue")
                 })
                 .on("mousemove", function(event){
                     tooltip

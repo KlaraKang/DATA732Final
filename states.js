@@ -77,10 +77,7 @@
 
     tooltip = container.append("div")
             .attr("class", "tooltip")
-            .style("top", 0)
-            .style("left", 0)
-            .style("color", "black")
-            .style("position", "absolute")
+            .style("visibility", "hidden")
 
     // + CALL AXES
     xAxisGroup = svg.append("g")
@@ -143,11 +140,11 @@
     .data(filteredData)
     .join("circle") // enter append
       .attr("class", "circle-point")
-      .attr("r", "4") // radius
+      .attr("r", "3") // radius
       .attr("cx", d=> xScale(d.DATA_YEAR))   // center x on line
       .attr("cy", d=> yScale(d.SUM_VICTIM_COUNT))   // center y on line
-      .attr("fill", "blue")
-      .attr("opacity", 0.4)
+      .attr("fill", "red")
+      .attr("opacity", 0.7)
         .on("mouseover", function(event,d,i){
             return tooltip
               .html(`<div>${d.SUM_VICTIM_COUNT} victims</div>`)
