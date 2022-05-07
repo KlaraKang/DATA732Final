@@ -119,7 +119,7 @@ Promise.all([
      .attr("text-anchor", "start")
      .attr("font-size", "10px")
      .attr("font-weight", "bold")
-     .text("Indicents");
+     .text("Victim Counts");
 
     // Place the legend axis with the values in it
     g.attr("transform", `translate(${width-margin.right}, ${0})`)
