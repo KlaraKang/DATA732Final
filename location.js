@@ -17,7 +17,7 @@
   /**
   * LOAD DATA
   * */
-  d3.json("./data/hateCrimeByLoc.json", d3.autotype).then(data => {
+  d3.json("./data/HateCrimeByLoc.json", d3.autotype).then(data => {
     state.data = data;
     console.log(state.data)
     init();
@@ -40,11 +40,10 @@
             .attr("class", "tooltip")
             .style("top", 0)
             .style("left", 0)
-            .style("stroke", "black")
-            .style("position", "absolute")
+            .style("visibility", "hidden")
 
-    const root = d3.hierarchy(state.data) // it applies hierarchal info into each record of the data 
-          .sum(d => d.SUM_LOCATION_RECORDS)  // totality of the whole square of the SVG  
+    const root = d3.hierarchy(state.data) 
+          .sum(d => d.SUM_LOCATION_RECORDS)  
           // sorts by traversal order by default. the data is already sorted by descending order.  
           
     console.log(root)
@@ -62,9 +61,6 @@
                     .domain([0, 35000])
                     .interpolator(d3.interpolateReds)  
   
-    /* const colorScale = d3.scaleOrdinal()
-                    .range(["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdbf6f","#ff7f00","#cab2d6","#6a3d9a","#ffff99","#b15928"])
-  */
     console.log(tree)
     console.log(leaf)
     const leafGroup = svg
@@ -104,12 +100,11 @@
     if(state.hover){
       tooltip
       .html(`<div>${state.hover.LOCATION_NAME} <br> 
-              ${state.hover.SUM_LOCATION_RECORDS} victims</div>`)
+              ${state.hover.SUM_LOCATION_RECORDS} counts</div>`)
       .transition()
       .duration(70)
-      .style("opacity", 0.8)
       .style("transform",`translate(${state.hover.position[0]}px, 
                                     ${state.hover.position[1]}px)`)
-      .style("background","yellow")
+      .style("visibility","visible")
     }
   };
