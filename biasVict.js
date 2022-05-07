@@ -1,11 +1,12 @@
   /* CONSTANTS AND GLOBALS */
   const width = window.innerWidth*.9,
   height = window.innerHeight*.8,
-  margin = {top:20, bottom:20, left:70, right:70};
+  margin = {top:20, bottom:20, left:200, right:70};
 
   // // since we use our scales in multiple functions, they need global scope
   // let xScale, yScale;
   let xScale1, yScale1, xScale2, yScale2;
+  let yAxis1, yAxis2, yAxisGroup1, yAxisGroup2;
   let colorScale;
   let svg, tooltip;
 
@@ -18,12 +19,15 @@
   };
 
   /* LOAD DATA */
-  d3.csv('./data/20YrsUSHateCrime.csv', d3.autoType).then(raw_data => {
+Promise.all([  
+  d3.csv('./data/hateCrime_biasType.csv', d3.autoType),
+  d3.csv('./data/hateCrime_victimType.csv', d3.autoType)
+]).then(([bias_data, vict_data]) => {
     // group and sum the data
-    var bias_sum = d3.rollup(raw_data, v=>d3.sum(v, g=>g.SUM_VICTIM_COUNT),
+    var bias_sum = d3.rollup(bias_data, v=>d3.sum(v, g=>g.SUM_BIAS_RECORDS),
                             d => d.BIAS_TYPES, d=>d.DATA_YEAR)  // Reduced, but it's an InternMap
     
-    var vict_sum = d3.rollup(raw_data, v=>d3.sum(v, g=>g.SUM_VICTIM_COUNT),
+    var vict_sum = d3.rollup(vict_data, v=>d3.sum(v, g=>g.SUM_VICTIM_TYPE_RECORDS),
                             d => d.VICTIM_TYPES, d=>d.DATA_YEAR) 
 
     // reorganizing to a flat array
@@ -34,8 +38,8 @@
             : Object.assign({}, { ...p, [keys[0]]: key, [label] : value })
             ).flat();
     } 
-    sums_bias = unroll(bias_sum, ["BIAS_TYPES", "DATA_YEAR"], "SUM_VICTIM_COUNT")
-    sums_vict = unroll(vict_sum, ["VICTIM_TYPES", "DATA_YEAR"], "SUM_VICTIM_COUNT")
+    sums_bias = unroll(bias_sum, ["BIAS_TYPES", "DATA_YEAR"], "SUM_BIAS_RECORDS")
+    sums_vict = unroll(vict_sum, ["VICTIM_TYPES", "DATA_YEAR"], "SUM_VICTIM_TYPE_RECORDS")
 
     // save the summed data to application state
     state.biasData = sums_bias;
@@ -52,37 +56,38 @@
     /* SCALES */
     // xScale1 for Bias Type - linear
     xScale1 = d3.scaleLinear()
-              .domain(d3.extent(state.biasData, d=>d.SUM_VICTIM_COUNT))
+              .domain(d3.extent(state.biasData, d=>d.SUM_BIAS_RECORDS))
               .range([margin.left, width-margin.right])
               
     // yScale1 for Bias Type - categorical
     yScale1 = d3.scaleBand()
-              .domain(state.biasData.map(d=> d.BIAS_TYPES).sort(d3.ascending) )
+              .domain(state.biasData.map(d=> d.BIAS_TYPES))//.sort(d3.ascending) )
               .range([margin.bottom, height-margin.top])
               .padding(.3)
     
     // xScale2 for Victim Type - linear
     xScale2 = d3.scaleLinear()
-              .domain(d3.extent(state.victData, d=>d.SUM_VICTIM_COUNT))
+              .domain(d3.extent(state.victData, d=>d.SUM_VICTIM_TYPE_RECORDS))
               .range([margin.left, width-margin.right])
     
     // yScale2 for Victim Type - categorical
     yScale2 = d3.scaleBand()
-              .domain(state.victData.map(d=> d.VICTIM_TYPES).sort(d3.ascending) )
+              .domain(state.victData.map(d=> d.VICTIM_TYPES))//.sort(d3.ascending) )
               .range([margin.bottom, height-margin.top])
               .padding(.3)           
 
     // color scale
     colorScale = d3.scaleOrdinal()
-                  .range(["#878f99","#124559","#598392","#a2b9bc","#b2ad7f","#bdcebe","#cfe0e8","#A5C4E7","#92a8d1","#034f84","#deeaee"])  
+                  .range(["#878f99","#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3",
+                  "#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f","#124559","#598392","#a2b9bc","#b2ad7f","#bdcebe","#cfe0e8","#A5C4E7","#92a8d1","#034f84","#deeaee"])  
 
     // + AXES
     const xAxis1 = d3.axisBottom(xScale1).ticks(20)
-    const yAxis1 = d3.axisLeft(yScale1)
+    yAxis1 = d3.axisLeft(yScale1)
 
     // + AXES
     const xAxis2 = d3.axisBottom(xScale2).ticks(20)
-    const yAxis2 = d3.axisLeft(yScale2)
+    yAxis2 = d3.axisLeft(yScale2)
 
     // + CREATE SVG ELEMENT
     const container = d3.select("#container")
@@ -119,7 +124,7 @@
       .attr("width",width/2)
       .call(xAxis1)
     
-    const yAxisGroup1 = svg1.append("g")
+    yAxisGroup1 = svg1.append("g")
       .attr("class","yAxis1")
       .attr("transform", `translate(${margin.left},${0})`)
       .call(yAxis1)
@@ -131,7 +136,7 @@
       .attr("width",width/2+50)
       .call(xAxis2)
     
-    const yAxisGroup2 = svg2.append("g")
+    yAxisGroup2 = svg2.append("g")
       .attr("class","yAxis2")
       .attr("transform", `translate(${margin.left+50},${0})`)
       .call(yAxis2)
@@ -164,12 +169,27 @@
   function draw() {
     // + FILTER DATA BASED ON STATE
     const filteredData1 = state.biasData
-        .filter(d => state.selectYear === d.DATA_YEAR) 
+        .filter(d => state.selectYear === d.DATA_YEAR)
+        .sort((a,b)=>d3.descending(a.SUM_BIAS_RECORDS, b.SUM_BIAS_RECORDS))
     
     const filteredData2 = state.victData
-          .filter(d => state.selectYear === d.DATA_YEAR) 
-    console.log(filteredData1) 
-    console.log(filteredData2) 
+        .filter(d => state.selectYear === d.DATA_YEAR)
+        .sort((a,b)=>d3.descending(a.SUM_VICTIM_TYPE_RECORDS, b.SUM_VICTIM_TYPE_RECORDS)) 
+    
+    // + UPDATE SCALE(S), if needed
+    yScale1.domain(filteredData1.map(d=> d.BIAS_TYPES))
+    yScale2.domain(filteredData2.map(d=> d.VICTIM_TYPES))
+
+    // + UPDATE AXIS/AXES, if needed
+    yAxisGroup1
+        .transition()
+        .duration(500)
+        .call(yAxis1)
+
+    yAxisGroup2
+        .transition()
+        .duration(500)
+        .call(yAxis2)
 
     svg1.selectAll("rect.bar1")
         .data(filteredData1, d => d.INCIDENT_ID)
@@ -186,14 +206,14 @@
             .on("mouseover", function(event, d, i){
                 tooltip
                   .html(`<div>Bias: ${d.BIAS_TYPES}</div>
-                        <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
+                        <div>${d.SUM_BIAS_RECORDS} Victims</div>`)
                   .style("visibility", "visible")
                   .style("background","lightblue")
               })
             .on("mousemove", function(event){
                 tooltip
-                  .style("top", event.pageY - 9 + "px")
-                  .style("left", event.pageX +9 +"px")
+                  .style("top", event.pageY - 49 + "px")
+                  .style("left", event.pageX +"px")
               })
             .on("mouseout", function(event, d) {
                 tooltip
@@ -203,7 +223,7 @@
           .call(enter => enter
             .transition()
             .duration(500)
-            .attr("width", (d,i)=> xScale1(d.SUM_VICTIM_COUNT)-margin.left)
+            .attr("width", (d,i)=> xScale1(d.SUM_BIAS_RECORDS)-margin.left)
             .attr("fill", d=>colorScale(d.BIAS_TYPES))
           )
           ,
@@ -225,9 +245,9 @@
         enter=>enter
           .append("text")
           .attr("class","data-labels1")
-          .text(d=>d.SUM_VICTIM_COUNT)
+          .text(d=>d.SUM_BIAS_RECORDS)
           .attr("y", (d, i) => yScale1(d.BIAS_TYPES)+yScale1.bandwidth()/2)
-          .attr("x", d=>xScale1(d.SUM_VICTIM_COUNT)+15)
+          .attr("x", d=>xScale1(d.SUM_BIAS_RECORDS)+15)
           .attr("text-anchor", "middle")
           .attr("fill","rgb(242, 121, 8)")
         ,
@@ -255,14 +275,14 @@
             .on("mouseover", function(event, d, i){
                 tooltip
                   .html(`<div>Victim Type: ${d.VICTIM_TYPES}</div>
-                        <div>${d.SUM_VICTIM_COUNT} Victims</div>`)
+                        <div>${d.SUM_VICTIM_TYPE_RECORDS} Victims</div>`)
                   .style("visibility", "visible")
                   .style("background","lightblue")
             })
             .on("mousemove", function(event){
                 tooltip
-                  .style("top", event.pageY - 9 + "px")
-                  .style("left", event.pageX +9 +"px")
+                  .style("top", event.pageY - 49 + "px")
+                  .style("left", event.pageX +"px")
             })
             .on("mouseout", function(event, d) {
                 tooltip
@@ -272,7 +292,7 @@
           .call(enter => enter
             .transition()
             .duration(500)
-            .attr("width", (d,i)=> xScale2(d.SUM_VICTIM_COUNT)-margin.left)
+            .attr("width", (d,i)=> xScale2(d.SUM_VICTIM_TYPE_RECORDS)-margin.left)
             .attr("fill", d=>colorScale(d.VICTIM_TYPES))
           )
           ,
@@ -294,9 +314,9 @@
         enter=>enter
           .append("text")
           .attr("class","data-labels2")
-          .text(d=>d.SUM_VICTIM_COUNT)
+          .text(d=>d.SUM_VICTIM_TYPE_RECORDS)
           .attr("y", (d, i) => yScale2(d.VICTIM_TYPES)+yScale2.bandwidth()/2)
-          .attr("x", d=>xScale2(d.SUM_VICTIM_COUNT)+65)
+          .attr("x", d=>xScale2(d.SUM_VICTIM_TYPE_RECORDS)+65)
           .attr("text-anchor", "middle")
           .attr("fill","rgb(242, 121, 8)")
         ,
