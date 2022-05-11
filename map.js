@@ -1,7 +1,7 @@
 /* CONSTANTS AND GLOBALS*/
 const width = window.innerWidth * 0.9,
 height = window.innerHeight * 0.8,
-margin = { top: 20, bottom: 20, left: 20, right: 20 },
+margin = { top: 20, bottom: 20, left: 20, right: 40 },
 radius = 3;     
 
 let xScale, yScale, colorScale;
@@ -97,7 +97,7 @@ Promise.all([
             }))
      .enter().append("rect")
      .attr("height", 25)
-     .attr("x",-26)
+     .attr("x",-25)
      .attr("y", function(d) { 
             return yLegend(d[0])+12; })
      .attr("width", 23)
