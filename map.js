@@ -116,6 +116,7 @@ Promise.all([
 
     // Place the legend axis with the values in it
     g.attr("transform", `translate(${width-margin.right}, ${0})`)
+     .style("color","lightblue")
      .call(d3.axisRight(yLegend)
      .tickSize(0)
      .tickFormat(function(y, i) { 
