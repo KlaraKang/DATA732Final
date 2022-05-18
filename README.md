@@ -33,8 +33,20 @@ The original dataset doesn’t include geographical information, such as Latitud
 ![US_state](https://user-images.githubusercontent.com/88803111/168945217-002cf859-e004-433d-bd7c-8dc247089385.jpg)
 ![bias_type](https://user-images.githubusercontent.com/88803111/168945225-0a53d5ea-77eb-457e-b3e7-ffa6749b3355.jpg)
 ![offense_type](https://user-images.githubusercontent.com/88803111/168945234-e418d2ad-7230-4d1b-94c8-d545349dd95f.jpg)
+These charts seem too bright and too colorful, and they don't really match with my project theme.
 
-2. Latest project sketch and revised charts:
+2. Things inspired me during the design development workshop:
+This image helped me to decide my background color.
+![3](https://user-images.githubusercontent.com/88803111/168947435-6e71aefc-258f-44e2-af36-07fb41834d96.jpg)
+
+My moodboard:
+![moodboard](https://user-images.githubusercontent.com/88803111/168948136-6e903ad4-09d1-4e78-b8e3-25878954a4ae.png)
+
+Here's my color and palette generation process.
+![6 1](https://user-images.githubusercontent.com/88803111/168947917-e385f696-1f17-4a95-910a-35962ca0cb7b.jpg)
+![5 1](https://user-images.githubusercontent.com/88803111/168947937-d627acae-f114-421b-9e5f-21cb63468d3a.jpg)
+
+3. Latest project sketch and revised charts:
 ![sketch_v2](https://user-images.githubusercontent.com/88803111/168945252-ee284705-5b38-409f-871f-7dc3e7fe9eca.jpg)
 ![USstates](https://user-images.githubusercontent.com/88803111/168945258-5ecc94d9-5f85-4ed2-bb3d-40a5ba03daea.jpg)
 ![ByTypes](https://user-images.githubusercontent.com/88803111/168945265-b3449aa9-4b28-47ac-a572-eb7ad9e92be4.jpg)
