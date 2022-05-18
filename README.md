@@ -27,4 +27,13 @@ The original dataset doesn’t include geographical information, such as Latitud
 7. 31.0% of the time hate crimes occurred in residential areas, 18.5% on highways, and 9.5% in schools.
 
 ## My Design Process:
+1. Project sketch on a paper and earlier version of 3 charts:
+![sketch_v1](https://user-images.githubusercontent.com/88803111/168944077-323894cf-2439-4615-8ed2-d839b5f330e2.jpg)
+![US_state](https://user-images.githubusercontent.com/88803111/168944085-40d42ba4-eee1-40aa-aebd-c69b2f08745e.jpg)
+![bias_type](https://user-images.githubusercontent.com/88803111/168944114-3a0a658b-9980-4c2b-baf4-dc4a3f90dcef.jpg)
+![offense_type](https://user-images.githubusercontent.com/88803111/168944117-f88802b3-1b5a-48d7-a721-326d6d6a1b00.jpg)
 
+2. Latest project sketch and revised charts:
+![sketch_v2](https://user-images.githubusercontent.com/88803111/168944140-c22cc9e3-98ae-458c-bfcd-8a0b8a6568b7.jpg)
+![USstates](https://user-images.githubusercontent.com/88803111/168944149-d7713e06-f6e8-48f5-a36e-49221dc1a016.jpg)
+![ByTypes](https://user-images.githubusercontent.com/88803111/168944164-b35b8988-785e-415d-a09d-f376f10df5fc.jpg)
