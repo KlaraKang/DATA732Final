@@ -28,12 +28,12 @@ The original dataset doesn’t include geographical information, such as Latitud
 
 ## My Design Process:
 1. Project sketch on a paper and earlier version of 3 charts:
-![sketch_v1](https://user-images.githubusercontent.com/88803111/168944077-323894cf-2439-4615-8ed2-d839b5f330e2.jpg)
-![US_state](https://user-images.githubusercontent.com/88803111/168944085-40d42ba4-eee1-40aa-aebd-c69b2f08745e.jpg)
-![bias_type](https://user-images.githubusercontent.com/88803111/168944114-3a0a658b-9980-4c2b-baf4-dc4a3f90dcef.jpg)
-![offense_type](https://user-images.githubusercontent.com/88803111/168944117-f88802b3-1b5a-48d7-a721-326d6d6a1b00.jpg)
+![sketch_v1](https://user-images.githubusercontent.com/88803111/168945201-89b779c0-493f-43d0-b1f1-820b0bea7785.jpg)
+![US_state](https://user-images.githubusercontent.com/88803111/168945217-002cf859-e004-433d-bd7c-8dc247089385.jpg)
+![bias_type](https://user-images.githubusercontent.com/88803111/168945225-0a53d5ea-77eb-457e-b3e7-ffa6749b3355.jpg)
+![offense_type](https://user-images.githubusercontent.com/88803111/168945234-e418d2ad-7230-4d1b-94c8-d545349dd95f.jpg)
 
 2. Latest project sketch and revised charts:
-![sketch_v2](https://user-images.githubusercontent.com/88803111/168944140-c22cc9e3-98ae-458c-bfcd-8a0b8a6568b7.jpg)
-![USstates](https://user-images.githubusercontent.com/88803111/168944149-d7713e06-f6e8-48f5-a36e-49221dc1a016.jpg)
-![ByTypes](https://user-images.githubusercontent.com/88803111/168944164-b35b8988-785e-415d-a09d-f376f10df5fc.jpg)
+![sketch_v2](https://user-images.githubusercontent.com/88803111/168945252-ee284705-5b38-409f-871f-7dc3e7fe9eca.jpg)
+![USstates](https://user-images.githubusercontent.com/88803111/168945258-5ecc94d9-5f85-4ed2-bb3d-40a5ba03daea.jpg)
+![ByTypes](https://user-images.githubusercontent.com/88803111/168945265-b3449aa9-4b28-47ac-a572-eb7ad9e92be4.jpg)
