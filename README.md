@@ -26,5 +26,5 @@ The original dataset doesn’t include geographical information, such as Latitud
 6. Destruction of Property, Intimidation, and Aggravated Assault are the top 3 acts of hate crimes.
 7. 31.0% of the time hate crimes occurred in residential areas, 18.5% on highways, and 9.5% in schools.
 
-## My design Process:
+## My Design Process:
 
