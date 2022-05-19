@@ -15,7 +15,7 @@
       biasData: [], 
       victData: [],
       hover: null,
-      selectYear: 2020// "Select Year" //default selection
+      selectYear: 2020 //default selection
   };
 
   /* LOAD DATA */
@@ -61,7 +61,7 @@ Promise.all([
               
     // yScale1 for Bias Type - categorical
     yScale1 = d3.scaleBand()
-              .domain(state.biasData.map(d=> d.BIAS_TYPES))//.sort(d3.ascending) )
+              .domain(state.biasData.map(d=> d.BIAS_TYPES))
               .range([margin.bottom, height-margin.top])
               .padding(.3)
     
@@ -72,7 +72,7 @@ Promise.all([
     
     // yScale2 for Victim Type - categorical
     yScale2 = d3.scaleBand()
-              .domain(state.victData.map(d=> d.VICTIM_TYPES))//.sort(d3.ascending) )
+              .domain(state.victData.map(d=> d.VICTIM_TYPES))
               .range([margin.bottom, height-margin.top])
               .padding(.3)           
 
@@ -82,11 +82,9 @@ Promise.all([
                   "#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f","#124559","#598392","#a2b9bc","#b2ad7f","#bdcebe","#cfe0e8","#A5C4E7","#92a8d1","#034f84","#deeaee"])  
 
     // + AXES
-   /*  const xAxis1 = d3.axisBottom(xScale1).ticks(20) */
     yAxis1 = d3.axisLeft(yScale1)
 
     // + AXES
-   /*  const xAxis2 = d3.axisBottom(xScale2).ticks(20) */
     yAxis2 = d3.axisLeft(yScale2)
 
     // + CREATE SVG ELEMENT
@@ -135,15 +133,11 @@ Promise.all([
     
     /* set up event listener to filter data based on dropdown menu selection*/
     selectElement.on("change", event => {
-      console.log(event.target.value) // to test if filtered 
-
       state.selectYear = +event.target.value
-
-      //console.log("new state", state) // to check changes after selection
       draw(); 
       });
 
-    draw();  // calls the draw function
+    draw();  
   }
 
   /* DRAW FUNCTION */
