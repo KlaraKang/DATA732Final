@@ -81,7 +81,7 @@ Promise.all([
                   .range(["#878f99","#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3",
                   "#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f","#124559","#598392","#a2b9bc","#b2ad7f","#bdcebe","#cfe0e8","#A5C4E7","#92a8d1","#034f84","#deeaee"])  
 
-    // + AXES
+    // + AXES 
     yAxis1 = d3.axisLeft(yScale1)
 
     // + AXES
